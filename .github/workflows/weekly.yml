@@ -1,0 +1,51 @@
+name: Weekly fund-flow update
+
+on:
+  schedule:
+    # Saturday 00:30 UTC = Saturday 08:30 Hong Kong time, after Friday's
+    # CFTC, SFC and HKEX publications.
+    - cron: "30 0 * * 6"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Self-test (offline)
+        run: python -m pytest -q
+
+      - name: Collect data and compute signals
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          OPENFIGI_API_KEY: ${{ secrets.OPENFIGI_API_KEY }}
+        run: python -m fundflow.run
+
+      - name: Save results
+        run: |
+          git config user.name "fund-flow-bot"
+          git config user.email "fund-flow-bot@users.noreply.github.com"
+          git add data docs
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Weekly data update $(date -u +%Y-%m-%d)"
+            git push
+          fi
