@@ -1,138 +1,157 @@
-feed,market,kind,ticker,name,detail,evidence,date,score,sector
-HK short positions,HK,stock,1772.HK,GANFENGLITHIUM,"Short 19.65% of shares, HK$2,090m; 52-week high zone (percentile 98)",strong,2026-10-30,19.647,
-UK short positions,UK,stock,GB00BG5KQW09,CERES POWER HOLDINGS PLC,Aggregate short 19.58% of shares; up 0.94 pp in a week,strong,2026-11-04,19.58,
-HK short positions,HK,stock,0916.HK,CHINA LONGYUAN,"Short 18.05% of shares, HK$3,040m; 52-week high zone (percentile 98)",strong,2026-10-30,18.049,
-HK short positions,HK,stock,3323.HK,CNBM,"Short 15.68% of shares, HK$1,658m; 52-week high zone (percentile 96)",strong,2026-10-30,15.677,
-HK short positions,HK,stock,9880.HK,UBTECH ROBOTICS,"Short 14.89% of shares, HK$4,159m; 52-week high zone (percentile 100)",strong,2026-10-30,14.892,
-UK short positions,UK,stock,GB00BYXJC278,IBSTOCK PLC,Aggregate short 14.65% of shares; up 0.93 pp in a week,strong,2026-11-04,14.65,
-HK short positions,HK,stock,1787.HK,SD GOLD,"Short 13.53% of shares, HK$2,137m; 52-week high zone (percentile 100)",strong,2026-10-30,13.534,
-HK short positions,HK,stock,2186.HK,LUYE PHARMA,"Short 13.01% of shares, HK$824m; 52-week high zone (percentile 96)",strong,2026-10-30,13.014,
-HK short positions,HK,stock,9660.HK,HORIZONROBOT-W,"Short 12.70% of shares, HK$6,922m; 52-week high zone (percentile 98)",strong,2026-10-30,12.698,
-HK short positions,HK,stock,2228.HK,XTALPI,"Short 11.76% of shares, HK$3,091m; 52-week high zone (percentile 96)",strong,2026-10-30,11.76,
-HK short positions,HK,stock,9926.HK,AKESO,"Short 11.01% of shares, HK$8,445m; 52-week high zone (percentile 100)",strong,2026-10-30,11.007,
-HK short positions,HK,stock,2498.HK,ROBOSENSE,"Short 10.89% of shares, HK$693m; 52-week high zone (percentile 100)",strong,2026-10-30,10.888,
-HK short positions,HK,stock,6855.HK,ASCENTAGE,"Short 9.71% of shares, HK$991m; 52-week high zone (percentile 96)",strong,2026-10-30,9.71,
-HK short positions,HK,stock,1164.HK,CGN MINING,"Short 9.64% of shares, HK$1,518m; 52-week high zone (percentile 100)",strong,2026-10-30,9.643,
-HK short positions,HK,stock,9606.HK,DUALITYBIO-B,"Short 9.60% of shares, HK$919m; 52-week high zone (percentile 100)",strong,2026-10-30,9.595,
-UK short positions,UK,stock,US25520W1071,Diversified Energy Company,Aggregate short 9.25% of shares; up 0.52 pp in a week,strong,2026-11-04,9.25,
-HK short positions,HK,stock,9995.HK,REMEGEN,"Short 9.19% of shares, HK$1,244m; 52-week high zone (percentile 100)",strong,2026-10-30,9.193,
-HK short positions,HK,stock,6682.HK,PHANCY,"Short 9.18% of shares, HK$714m; 52-week high zone (percentile 100)",strong,2026-10-30,9.177,
-HK short positions,HK,stock,9980.HK,EASTROC,"Short 8.77% of shares, HK$500m; up 1.32 pp in a week",strong,2026-10-30,8.774,
-HK short positions,HK,stock,1799.HK,XINTE ENERGY,"Short 8.65% of shares, HK$108m; 52-week high zone (percentile 100)",strong,2026-10-30,8.647,
-HK short positions,HK,stock,1336.HK,NCI,"Short 7.46% of shares, HK$2,997m; 52-week high zone (percentile 98)",strong,2026-10-30,7.461,
-HK short positions,HK,stock,3606.HK,FUYAO GLASS,"Short 7.46% of shares, HK$2,306m; 52-week high zone (percentile 100)",strong,2026-10-30,7.46,
-HK short positions,HK,stock,9927.HK,SERES,"Short 7.37% of shares, HK$235m; 52-week high zone (percentile 97)",strong,2026-10-30,7.371,
-HK short positions,HK,stock,2142.HK,HBM HOLDINGS-B,"Short 7.34% of shares, HK$648m; 52-week high zone (percentile 98)",strong,2026-10-30,7.341,
-HK short positions,HK,stock,3877.HK,CSSC SHIPPING,"Short 7.27% of shares, HK$1,060m; 52-week high zone (percentile 96)",strong,2026-10-30,7.269,
-HK short positions,HK,stock,1918.HK,SUNAC,"Short 7.00% of shares, HK$580m; 52-week high zone (percentile 100)",strong,2026-10-30,6.996,
-HK short positions,HK,stock,2313.HK,SHENZHOU INTL,"Short 6.87% of shares, HK$3,957m; 52-week high zone (percentile 100)",strong,2026-10-30,6.865,
-HK short positions,HK,stock,3069.HK,CAM HSBIOTECH,"Short 6.76% of shares, HK$183m; up 2.29 pp in a week",strong,2026-10-30,6.76,
-HK short positions,HK,stock,0960.HK,LONGFOR GROUP,"Short 6.74% of shares, HK$2,169m; 52-week high zone (percentile 100)",strong,2026-10-30,6.737,
-HK short positions,HK,stock,6186.HK,CHINA FEIHE,"Short 6.26% of shares, HK$1,459m; 52-week high zone (percentile 100)",strong,2026-10-30,6.258,
-HK short positions,HK,stock,0027.HK,GALAXY ENT,"Short 6.17% of shares, HK$8,743m; 52-week high zone (percentile 100)",strong,2026-10-30,6.171,
-HK short positions,HK,stock,1766.HK,CRRC,"Short 6.15% of shares, HK$1,423m; 52-week high zone (percentile 100)",strong,2026-10-30,6.146,
-HK short positions,HK,stock,9896.HK,MNSO,"Short 6.03% of shares, HK$1,452m; 52-week high zone (percentile 100)",strong,2026-10-30,6.03,
-HK short positions,HK,stock,1548.HK,GENSCRIPT BIO,"Short 5.96% of shares, HK$4,775m; up 1.27 pp in a week",strong,2026-10-30,5.965,
-HK short positions,HK,stock,1519.HK,J&T EXPRESS-W,"Short 5.88% of shares, HK$5,106m; 52-week high zone (percentile 100)",strong,2026-10-30,5.883,
-HK short positions,HK,stock,3986.HK,GIGADEVICE,"Short 5.87% of shares, HK$615m; up 1.30 pp in a week",strong,2026-10-30,5.872,
-HK short positions,HK,stock,2276.HK,CONANT OPTICAL,"Short 5.84% of shares, HK$952m; 52-week high zone (percentile 96)",strong,2026-10-30,5.84,
-HK short positions,HK,stock,0772.HK,CHINA LIT,"Short 5.83% of shares, HK$1,257m; 52-week high zone (percentile 98)",strong,2026-10-30,5.825,
-HK short positions,HK,stock,3696.HK,INSILICO,"Short 5.82% of shares, HK$1,231m; 52-week high zone (percentile 100)",strong,2026-10-30,5.821,
-HK short positions,HK,stock,0631.HK,SANY INT'L,"Short 5.67% of shares, HK$1,220m; 52-week high zone (percentile 100)",strong,2026-10-30,5.669,
-HK short positions,HK,stock,1888.HK,KB LAMINATES,"Short 5.42% of shares, HK$5,936m; 52-week high zone (percentile 96)",strong,2026-10-30,5.423,
-HK short positions,HK,stock,0576.HK,ZHEJIANGEXPRESS,"Short 5.37% of shares, HK$664m; 52-week high zone (percentile 98)",strong,2026-10-30,5.37,
-HK short positions,HK,stock,2883.HK,CHINA OILFIELD,"Short 5.24% of shares, HK$737m; 52-week high zone (percentile 100)",strong,2026-10-30,5.236,
-HK short positions,HK,stock,2328.HK,PICC P&C,"Short 5.06% of shares, HK$5,680m; 52-week high zone (percentile 100)",strong,2026-10-30,5.056,
-HK short positions,HK,stock,1818.HK,ZHAOJIN MINING,"Short 4.79% of shares, HK$2,143m; 52-week high zone (percentile 98)",strong,2026-10-30,4.795,
-HK short positions,HK,stock,3896.HK,KINGSOFT CLOUD,"Short 4.67% of shares, HK$873m; 52-week high zone (percentile 98)",strong,2026-10-30,4.671,
-HK short positions,HK,stock,1405.HK,DPC DASH,"Short 4.67% of shares, HK$190m; 52-week high zone (percentile 100)",strong,2026-10-30,4.668,
-HK short positions,HK,stock,2007.HK,COUNTRY GARDEN,"Short 4.59% of shares, HK$304m; 52-week high zone (percentile 100)",strong,2026-10-30,4.592,
-HK short positions,HK,stock,1928.HK,SANDS CHINA LTD,"Short 4.37% of shares, HK$3,802m; 52-week high zone (percentile 100)",strong,2026-10-30,4.365,
-HK short positions,HK,stock,3931.HK,CALB,"Short 4.12% of shares, HK$524m; 52-week high zone (percentile 100)",strong,2026-10-30,4.121,
-HK short positions,HK,stock,2513.HK,Z.AI,"Short 4.03% of shares, HK$5,132m; 52-week high zone (percentile 100)",strong,2026-10-30,4.032,
-HK short positions,HK,stock,2858.HK,YIXIN,"Short 3.89% of shares, HK$202m; 52-week high zone (percentile 100)",strong,2026-10-30,3.887,
-UK short positions,UK,stock,FR0013258662,AYVENS,Aggregate short 3.71% of shares; up 0.65 pp in a week,strong,2026-11-04,3.71,
-UK short positions,UK,stock,GB00B1CKQ739,DUNELM GROUP PLC,Aggregate short 3.63% of shares; crossed 3%; up 1.79 pp in a week,strong,2026-11-03,3.63,
-HK short positions,HK,stock,2788.HK,CHUANGXIN IND,"Short 3.61% of shares, HK$1,024m; 52-week high zone (percentile 95)",strong,2026-10-30,3.611,
-HK short positions,HK,stock,0200.HK,MELCO INT'L DEV,"Short 3.61% of shares, HK$184m; 52-week high zone (percentile 100)",strong,2026-10-30,3.606,
-HK short positions,HK,stock,2432.HK,DOBOT,"Short 3.21% of shares, HK$215m; 52-week high zone (percentile 100)",strong,2026-10-30,3.21,
-HK short positions,HK,stock,1308.HK,SITC,"Short 3.12% of shares, HK$4,081m; 52-week high zone (percentile 96)",strong,2026-10-30,3.116,
-HK short positions,HK,stock,2020.HK,ANTA SPORTS,"Short 3.05% of shares, HK$6,349m; 52-week high zone (percentile 100)",strong,2026-10-30,3.05,
-HK short positions,HK,stock,0340.HK,TONGGUAN GOLD,"Short 2.77% of shares, HK$337m; 52-week high zone (percentile 100)",strong,2026-10-30,2.768,
-HK short positions,HK,stock,1477.HK,OCUMENSION-B,"Short 2.75% of shares, HK$110m; 52-week high zone (percentile 100)",strong,2026-10-30,2.75,
-HK short positions,HK,stock,0288.HK,WH GROUP,"Short 2.72% of shares, HK$2,226m; 52-week high zone (percentile 98)",strong,2026-10-30,2.724,
-HK short positions,HK,stock,1882.HK,HAITIAN INT'L,"Short 2.65% of shares, HK$737m; 52-week high zone (percentile 100)",strong,2026-10-30,2.652,
-HK short positions,HK,stock,0966.HK,CHINA TAIPING,"Short 2.60% of shares, HK$1,588m; 52-week high zone (percentile 96)",strong,2026-10-30,2.602,
-HK short positions,HK,stock,6616.HK,GLOBAL NEW MAT,"Short 2.57% of shares, HK$280m; 52-week high zone (percentile 98)",strong,2026-10-30,2.568,
-HK short positions,HK,stock,0083.HK,SINO LAND,"Short 2.56% of shares, HK$2,520m; 52-week high zone (percentile 100)",strong,2026-10-30,2.561,
-HK short positions,HK,stock,0257.HK,EB ENVIRONMENT,"Short 2.44% of shares, HK$719m; 52-week high zone (percentile 100)",strong,2026-10-30,2.442,
-HK short positions,HK,stock,6963.HK,SUNSHINE INS,"Short 2.27% of shares, HK$275m; 52-week high zone (percentile 100)",strong,2026-10-30,2.268,
-HK short positions,HK,stock,6618.HK,JD HEALTH,"Short 2.22% of shares, HK$2,706m; 52-week high zone (percentile 100)",strong,2026-10-30,2.224,
-UK short positions,UK,stock,CH0100837282,Kardex Holding AG,Aggregate short 2.22% of shares; crossed 2%,strong,2026-11-05,2.22,
-HK short positions,HK,stock,0388.HK,HKEX,"Short 2.21% of shares, HK$10,352m; 52-week high zone (percentile 100)",strong,2026-10-30,2.215,
-HK short positions,HK,stock,2342.HK,COMBA,"Short 2.12% of shares, HK$67m; 52-week high zone (percentile 100)",strong,2026-10-30,2.125,
-UK short positions,UK,stock,GB0009697037,BABCOCK INTERNATIONAL GROUP PLC,Aggregate short 2.05% of shares; crossed 2%,strong,2026-11-03,2.05,
-HK short positions,HK,stock,9903.HK,ILUVATAR COREX,"Short 2.02% of shares, HK$969m; 52-week high zone (percentile 100)",strong,2026-10-30,2.019,
-HK short positions,HK,stock,9966.HK,ALPHAMAB-B,"Short 2.00% of shares, HK$121m; 52-week high zone (percentile 100)",strong,2026-10-30,2.002,
-HK short positions,HK,stock,3858.HK,JIAXIN INTL RES,"Short 1.98% of shares, HK$326m; 52-week high zone (percentile 100)",strong,2026-10-30,1.979,
-HK short positions,HK,stock,3396.HK,LEGENDHOLDING,"Short 1.84% of shares, HK$323m; 52-week high zone (percentile 100)",strong,2026-10-30,1.839,
-HK short positions,HK,stock,1866.HK,CHINA XLX FERT,"Short 1.69% of shares, HK$204m; 52-week high zone (percentile 100)",strong,2026-10-30,1.694,
-HK short positions,HK,stock,0101.HK,HANG LUNG PPT,"Short 1.64% of shares, HK$529m; 52-week high zone (percentile 100)",strong,2026-10-30,1.641,
-HK short positions,HK,stock,0151.HK,WANT WANT CHINA,"Short 1.61% of shares, HK$537m; 52-week high zone (percentile 100)",strong,2026-10-30,1.611,
-HK short positions,HK,stock,2696.HK,HENLIUS,"Short 1.56% of shares, HK$268m; 52-week high zone (percentile 100)",strong,2026-10-30,1.563,
-HK short positions,HK,stock,2157.HK,LEPU BIO,"Short 1.48% of shares, HK$84m; 52-week high zone (percentile 100)",strong,2026-10-30,1.478,
-HK short positions,HK,stock,3988.HK,BANK OF CHINA,"Short 1.47% of shares, HK$7,561m; 52-week high zone (percentile 96)",strong,2026-10-30,1.471,
-HK short positions,HK,stock,1811.HK,CGN NEW ENERGY,"Short 1.34% of shares, HK$119m; 52-week high zone (percentile 98)",strong,2026-10-30,1.339,
-HK short positions,HK,stock,3698.HK,HUISHANG BANK,"Short 1.30% of shares, HK$204m; 52-week high zone (percentile 100)",strong,2026-10-30,1.298,
-HK short positions,HK,stock,0667.HK,CHINA EAST EDU,"Short 1.25% of shares, HK$115m; 52-week high zone (percentile 100)",strong,2026-10-30,1.251,
-UK short positions,UK,stock,DE000SHL1006,Siemens Healthineers AG,Aggregate short 1.18% of shares; crossed 1%,strong,2026-11-04,1.18,
-UK short positions,UK,stock,GB00B14SKR37,CMC MARKETS PLC,Aggregate short 1.16% of shares; crossed 1%,strong,2026-11-04,1.16,
-UK short positions,UK,stock,GB00BZC0LP49,LUCECO PLC,Aggregate short 1.15% of shares; crossed 1%,strong,2026-10-30,1.15,
-HK short positions,HK,stock,0008.HK,PCCW,"Short 1.15% of shares, HK$445m; 52-week high zone (percentile 100)",strong,2026-10-30,1.146,
-UK short positions,UK,stock,CH1169360919,ACCELLERON INDUSTRIES AG,Aggregate short 1.14% of shares; crossed 1%,strong,2026-11-04,1.14,
-UK short positions,UK,stock,GB00BY7QYJ50,MOLTEN VENTURES PLC,Aggregate short 1.09% of shares; crossed 1%,strong,2026-11-04,1.09,
-HK short positions,HK,stock,9985.HK,WL DELICIOUS,"Short 1.07% of shares, HK$172m; 52-week high zone (percentile 100)",strong,2026-10-30,1.072,
-HK short positions,HK,stock,1768.HK,BUSYMING,"Short 1.05% of shares, HK$678m; 52-week high zone (percentile 100)",strong,2026-10-30,1.05,
-HK short positions,HK,stock,0142.HK,FIRST PACIFIC,"Short 1.04% of shares, HK$212m; 52-week high zone (percentile 100)",strong,2026-10-30,1.04,
-UK short positions,UK,stock,GB00BWD24154,AEW UK REIT PLC,Aggregate short 1.02% of shares; crossed 1%,strong,2026-11-04,1.02,
-UK short positions,UK,stock,GB00B6XZKY75,A.G. BARR plc,Aggregate short 1.01% of shares; crossed 1%,strong,2026-11-04,1.01,
-HK short positions,HK,stock,0376.HK,YUNFENG FIN,"Short 1.00% of shares, HK$74m; 52-week high zone (percentile 100)",strong,2026-10-30,0.996,
-HK short positions,HK,stock,2610.HK,NANSHAN AL INTL,"Short 0.96% of shares, HK$125m; 52-week high zone (percentile 100)",strong,2026-10-30,0.962,
-HK short positions,HK,stock,0023.HK,BANK OF E ASIA,"Short 0.65% of shares, HK$318m; 52-week high zone (percentile 96)",strong,2026-10-30,0.654,
-HK short positions,HK,stock,0800.HK,WERIDE-W,"Short 0.62% of shares, HK$71m; 52-week high zone (percentile 97)",strong,2026-10-30,0.621,
-HK short positions,HK,stock,0565.HK,ART GROUP HOLD,Short HK$106m; 52-week high zone (percentile 100),strong,2026-10-30,0.0,
-HK short positions,HK,stock,0622.HK,OSHIDORI,Short HK$174m; 52-week high zone (percentile 100),strong,2026-10-30,0.0,
-HK short positions,HK,stock,2256.HK,ABBISKO-B,Short HK$114m; 52-week high zone (percentile 100),strong,2026-10-30,0.0,
-HK short positions,HK,stock,2722.HK,CHONGQING M&E,Short HK$86m; 52-week high zone (percentile 100),strong,2026-10-30,0.0,
-HK short positions,HK,stock,3417.HK,A GX HSTCC,Short HK$189m; 52-week high zone (percentile 100),strong,2026-10-30,0.0,
-HK short positions,HK,stock,3466.HK,HS HIGH DIV,Short HK$404m; 52-week high zone (percentile 100),strong,2026-10-30,0.0,
-HK short positions,HK,stock,6823.HK,HKT-SS,"Short HK$1,255m; 52-week high zone (percentile 100)",strong,2026-10-30,0.0,
-HK short positions,HK,stock,82800.HK,TRACKER FUND-R,Short HK$115m; 52-week high zone (percentile 98),strong,2026-10-30,0.0,
-Southbound,HK,stock,1816.HK,"CGN POWER CO., LTD","Unusual mainland selling: -2.67 pp of shares in 5 days (~HK$-1,023m, z=-7.6); now holds 48.86%",good,2026-11-06,7.616259853593054,
-Southbound,HK,stock,6031.HK,"SANY HEAVY INDUSTRY CO., LTD.","Unusual mainland buying: +1.17 pp of shares in 5 days (~HK$133m, z=3.6); now holds 8.10%",good,2026-11-06,3.6457680484312918,
-Southbound,HK,stock,0338.HK,SINOPEC SHANGHAI PETROCHEMICAL COMPANY LIMITED,"Unusual mainland selling: -1.66 pp of shares in 5 days (~HK$-66m, z=-3.6); now holds 31.18%",good,2026-11-06,3.637379266139471,
-Southbound,HK,stock,0384.HK,CHINA GAS HOLDINGS LIMITED,"Unusual mainland selling: -0.71 pp of shares in 5 days (~HK$-190m, z=-3.4); now holds 16.47%",good,2026-11-06,3.405687064457058,
-Southbound,HK,stock,0836.HK,CHINA RESOURCES POWER HOLDINGS COMPANY LIMITED,"Unusual mainland buying: +0.53 pp of shares in 5 days (~HK$555m, z=3.3); now holds 21.95%",good,2026-11-06,3.3168519876467646,
-Southbound,HK,stock,2656.HK,160 HEALTH INTERNATIONAL LIMITED,"Unusual mainland buying: +4.88 pp of shares in 5 days (~HK$53m, z=3.0); now holds 20.96%",good,2026-11-06,3.0213807965386437,
-Southbound,HK,stock,3606.HK,"FUYAO GLASS INDUSTRY GROUP CO., LTD","Unusual mainland buying: +0.68 pp of shares in 5 days (~HK$212m, z=2.8); now holds 16.32%",good,2026-11-06,2.807853049802898,
-Southbound,HK,stock,3033.HK,CSOP HANG SENG TECH INDEX ETF,"Unusual mainland buying: +4.32 pp of shares in 5 days (~HK$3,798m, z=2.7); now holds 65.16%",good,2026-11-06,2.6716690332967525,
-Southbound,HK,stock,2388.HK,BOC HONG KONG (HOLDINGS) LIMITED -HKD TRADED SHARES,"Unusual mainland buying: +0.13 pp of shares in 5 days (~HK$701m, z=2.6); now holds 4.00%",good,2026-11-06,2.6446369759241946,
-Southbound,HK,stock,2318.HK,"PING AN INSURANCE (GROUP) COMPANY OF CHINA, LTD.-HKD TRADED SHARES","Unusual mainland buying: +0.41 pp of shares in 5 days (~HK$1,549m, z=2.6); now holds 13.72%",good,2026-11-06,2.581941993812005,
-Southbound,HK,stock,1810.HK,XIAOMI CORPORATION -HKD TRADED SHARES,"Unusual mainland selling: -0.49 pp of shares in 5 days (~HK$-3,342m, z=-2.6); now holds 18.95%",good,2026-11-06,2.5506568613493257,
-Southbound,HK,stock,1928.HK,SANDS CHINA LTD.,"Unusual mainland selling: -0.08 pp of shares in 5 days (~HK$-64m, z=-2.4); now holds 1.70%",good,2026-11-06,2.443547954103944,
-Southbound,HK,stock,1658.HK,"POSTAL SAVINGS BANK OF CHINA CO., LTD.","Unusual mainland buying: +0.26 pp of shares in 5 days (~HK$290m, z=2.4); now holds 31.16%",good,2026-11-06,2.4173974369336584,
-Southbound,HK,stock,0470.HK,"WUXI LEAD INTELLIGENT EQUIPMENT CO., LTD.","Unusual mainland selling: -2.86 pp of shares in 5 days (~HK$-62m, z=-2.4); now holds 18.52%",good,2026-11-06,2.408384621280677,
-Southbound,HK,stock,3898.HK,"ZHUZHOU CRRC TIMES ELECTRIC CO., LTD.","Unusual mainland selling: -0.78 pp of shares in 5 days (~HK$-93m, z=-2.4); now holds 22.26%",good,2026-11-06,2.3680754204046477,
-Southbound,HK,stock,2343.HK,PACIFIC BASIN SHIPPING LIMITED,"Unusual mainland buying: +0.66 pp of shares in 5 days (~HK$123m, z=2.3); now holds 9.05%",good,2026-11-06,2.329440658143373,
-Southbound,HK,stock,0390.HK,CHINA RAILWAY GROUP LIMITED,"Unusual mainland selling: -0.88 pp of shares in 5 days (~HK$-114m, z=-2.3); now holds 34.88%",good,2026-11-06,2.2892138407488933,
-Southbound,HK,stock,1308.HK,SITC INTERNATIONAL HOLDINGS COMPANY LIMITED,"Unusual mainland selling: -0.18 pp of shares in 5 days (~HK$-245m, z=-2.2); now holds 5.09%",good,2026-11-06,2.169405111711379,
-Southbound,HK,stock,3908.HK,CHINA INTERNATIONAL CAPITAL CORPORATION LIMITED,"Unusual mainland selling: -1.07 pp of shares in 5 days (~HK$-348m, z=-2.2); now holds 20.51%",good,2026-11-06,2.159831273611727,
-Southbound,HK,stock,6655.HK,"HUAXIN BUILDING MATERIALS GROUP CO., LTD.","Unusual mainland selling: -0.60 pp of shares in 5 days (~HK$-66m, z=-2.1); now holds 21.12%",good,2026-11-06,2.1282823948638407,
-Southbound,HK,stock,1579.HK,YIHAI INTERNATIONAL HOLDING LTD.,"Unusual mainland buying: +0.55 pp of shares in 5 days (~HK$87m, z=2.1); now holds 17.87%",good,2026-11-06,2.126835112847036,
-Southbound,HK,stock,9880.HK,UBTECH ROBOTICS CORP LTD,"Unusual mainland buying: +1.33 pp of shares in 5 days (~HK$407m, z=2.1); now holds 31.59%",good,2026-11-06,2.0682827839311333,
-Southbound,HK,stock,2800.HK,TRACKER FUND OF HONG KONG -HKD TRADED UNITS,"Unusual mainland buying: +7.55 pp of shares in 5 days (~HK$10,530m, z=2.1); now holds 7.87%",good,2026-11-06,2.063814094120008,
-Southbound,HK,stock,1788.HK,GUOTAI JUNAN INTERNATIONAL HOLDINGS LIMITED,"Unusual mainland selling: -1.30 pp of shares in 5 days (~HK$-352m, z=-2.1); now holds 8.61%",good,2026-11-06,2.063223436257101,
-Southbound,HK,stock,0916.HK,CHINA LONGYUAN POWER GROUP CORPORATION LIMITED,"Unusual mainland selling: -0.79 pp of shares in 5 days (~HK$-132m, z=-2.1); now holds 57.62%",good,2026-11-06,2.055702330671544,
-Sector ETF flows,US,sector,XLV,Health Care,"Unusual 4-week inflows: +1,947m USD (+3.90% of fund), percentile 100",context,2026-11-06,,Health Care
-13F (hedge funds),US,stock,SPCX,SPACE EXPLORATION TECHN CORP,"5 stock-picking hedge funds opened new positions (>=0.25% of fund) in 2026-06 quarter (Appaloosa, Coatue, Third Point, Tiger Global, Viking Global)",context,2026-06-30,,Other / not in S&P 1500
-13F (hedge funds),US,stock,CBRS,CEREBRAS SYSTEMS INC,"3 stock-picking hedge funds opened new positions (>=0.25% of fund) in 2026-06 quarter (Coatue, Soros Fund Mgmt, Tiger Global)",context,2026-06-30,,Other / not in S&P 1500
+feed,market,kind,ticker,name,sector,detail,evidence,date,score
+US short interest,US,stock,TRIP,TripAdvisor,Communication Services,"Short interest 32.6% of shares (1-year high zone, up 30% in ~6 weeks); 13.24 days to cover",strong,2026-10-15,32.59
+US short interest,US,stock,FUN,Six Flags,Consumer Discretionary,"Short interest 24.0% of shares (1-year high zone, up 26% in ~6 weeks); 4.59 days to cover",strong,2026-10-15,24.04
+US short interest,US,stock,WKC,World Kinect Corporation,Energy,"Short interest 22.4% of shares (1-year high zone, up 38% in ~6 weeks); 12.31 days to cover",strong,2026-10-15,22.39
+US short interest,US,stock,TNDM,Tandem Diabetes Care,Health Care,"Short interest 21.6% of shares (1-year high zone, up 28% in ~6 weeks); 6.86 days to cover",strong,2026-10-15,21.62
+US short interest,US,stock,ENOV,Enovis,Health Care,"Short interest 20.3% of shares (1-year high zone, up 29% in ~6 weeks); 8.68 days to cover",strong,2026-10-15,20.28
+US short interest,US,stock,GT,Goodyear Tire and Rubber Company,Consumer Discretionary,"Short interest 19.8% of shares (1-year high zone, up 46% in ~6 weeks); 6.36 days to cover",strong,2026-10-15,19.76
+HK short positions,HK,stock,1772.HK,GANFENGLITHIUM,,"Short 19.65% of shares, HK$2,090m; 52-week high zone (percentile 98) and among the most-shorted HK stocks (top 1%)",strong,2026-10-30,19.647
+UK short positions,UK,stock,GB00BG5KQW09,CERES POWER HOLDINGS PLC,,Aggregate short 19.58% of shares; up 0.94 pp in a week,strong,2026-11-04,19.58
+US short interest,US,stock,WU,Western Union,Financials,"Short interest 18.8% of shares (1-year high zone, up 25% in ~6 weeks); 8.01 days to cover",strong,2026-10-15,18.79
+US short interest,US,stock,CRI,"Carter's, Inc.",Consumer Discretionary,"Short interest 18.6% of shares (1-year high zone, up 49% in ~6 weeks); 5.16 days to cover",strong,2026-10-15,18.57
+HK short positions,HK,stock,0916.HK,CHINA LONGYUAN,,"Short 18.05% of shares, HK$3,040m; 52-week high zone (percentile 98) and among the most-shorted HK stocks (top 1%)",strong,2026-10-30,18.049
+US short interest,US,stock,PATK,"Patrick Industries, Inc.",Consumer Discretionary,"Short interest 17.6% of shares (1-year high zone, up 32% in ~6 weeks); 8.41 days to cover",strong,2026-10-15,17.62
+US short interest,US,stock,PTGX,"Protagonist Therapeutics, Inc.",Health Care,"Short interest 15.8% of shares (1-year high zone, up 34% in ~6 weeks); 12.02 days to cover",strong,2026-10-15,15.78
+US short interest,US,stock,AAL,American Airlines Group,Industrials,"Short interest 15.8% of shares (1-year high zone, up 38% in ~6 weeks); 1.72 days to cover",strong,2026-10-15,15.75
+HK short positions,HK,stock,3323.HK,CNBM,,"Short 15.68% of shares, HK$1,658m; 52-week high zone (percentile 96) and among the most-shorted HK stocks (top 1%)",strong,2026-10-30,15.677
+US short interest,US,stock,KBH,KB Home,Consumer Discretionary,"Short interest 15.5% of shares (1-year high zone, up 25% in ~6 weeks); 6.16 days to cover",strong,2026-10-15,15.47
+US short interest,US,stock,XRAY,Dentsply Sirona,Health Care,"Short interest 15.1% of shares (1-year high zone, up 35% in ~6 weeks); 6.17 days to cover",strong,2026-10-15,15.05
+HK short positions,HK,stock,9880.HK,UBTECH ROBOTICS,,"Short 14.89% of shares, HK$4,159m; 52-week high zone (percentile 100) and among the most-shorted HK stocks (top 1%)",strong,2026-10-30,14.892
+UK short positions,UK,stock,GB00BYXJC278,IBSTOCK PLC,,Aggregate short 14.65% of shares; up 0.93 pp in a week,strong,2026-11-04,14.65
+US short interest,US,stock,FIVN,"Five9, Inc.",Information Technology,"Short interest 14.4% of shares (1-year high zone, up 27% in ~6 weeks); 5.79 days to cover",strong,2026-10-15,14.39
+US short interest,US,stock,AHR,American Healthcare REIT,Real Estate,"Short interest 14.3% of shares (1-year high zone, up 57% in ~6 weeks); 10.84 days to cover",strong,2026-10-15,14.3
+US short interest,US,stock,PMT,PennyMac Mortgage Investment Trust,Real Estate,"Short interest 13.7% of shares (1-year high zone, up 30% in ~6 weeks); 3.64 days to cover",strong,2026-10-15,13.68
+HK short positions,HK,stock,1787.HK,SD GOLD,,"Short 13.53% of shares, HK$2,137m; 52-week high zone (percentile 100) and among the most-shorted HK stocks (top 2%)",strong,2026-10-30,13.534
+US short interest,US,stock,CALM,"Cal-Maine Foods, Inc.",Consumer Staples,"Short interest 13.0% of shares (1-year high zone, up 27% in ~6 weeks); 3.87 days to cover",strong,2026-10-15,13.02
+HK short positions,HK,stock,2186.HK,LUYE PHARMA,,"Short 13.01% of shares, HK$824m; 52-week high zone (percentile 96) and among the most-shorted HK stocks (top 2%)",strong,2026-10-30,13.014
+HK short positions,HK,stock,9660.HK,HORIZONROBOT-W,,"Short 12.70% of shares, HK$6,922m; 52-week high zone (percentile 98) and among the most-shorted HK stocks (top 2%)",strong,2026-10-30,12.698
+HK short positions,HK,stock,2228.HK,XTALPI,,"Short 11.76% of shares, HK$3,091m; 52-week high zone (percentile 96) and among the most-shorted HK stocks (top 3%)",strong,2026-10-30,11.76
+US short interest,US,stock,FICO,Fair Isaac,Information Technology,"Short interest 11.3% of shares (1-year high zone, up 35% in ~6 weeks); 1.69 days to cover",strong,2026-10-15,11.35
+HK short positions,HK,stock,9926.HK,AKESO,,"Short 11.01% of shares, HK$8,445m; 52-week high zone (percentile 100) and among the most-shorted HK stocks (top 4%)",strong,2026-10-30,11.007
+HK short positions,HK,stock,2498.HK,ROBOSENSE,,"Short 10.89% of shares, HK$693m; 52-week high zone (percentile 100) and among the most-shorted HK stocks (top 4%)",strong,2026-10-30,10.888
+US short interest,US,stock,MDT,Medtronic,Health Care,"Short interest 10.9% of shares (1-year high zone, up 1046% in ~6 weeks); 2.93 days to cover",strong,2026-10-15,10.87
+US short interest,US,stock,MHK,Mohawk Industries,Consumer Discretionary,"Short interest 10.4% of shares (1-year high zone, up 41% in ~6 weeks); 5.9 days to cover",strong,2026-10-15,10.45
+US short interest,US,stock,ALB,Albemarle Corporation,Materials,"Short interest 10.4% of shares (1-year high zone, up 27% in ~6 weeks); 4.95 days to cover",strong,2026-10-15,10.38
+US short interest,US,stock,VLY,Valley Bank,Financials,"Short interest 10.3% of shares (1-year high zone, up 33% in ~6 weeks); 8.68 days to cover",strong,2026-10-15,10.35
+US short interest,US,stock,PNW,Pinnacle West Capital,Utilities,"Short interest 10.3% of shares (1-year high zone, up 28% in ~6 weeks); 8.78 days to cover",strong,2026-10-15,10.3
+US short interest,US,stock,CART,Maplebear Inc.,Consumer Staples,"Short interest 9.8% of shares (1-year high zone, up 45% in ~6 weeks); 7.29 days to cover",strong,2026-10-15,9.76
+US short interest,US,stock,MKTX,MarketAxess,Financials,"Short interest 9.8% of shares (1-year high zone, up 90% in ~6 weeks); 5.46 days to cover",strong,2026-10-15,9.75
+US short interest,US,stock,GPOR,Gulfport Energy Corporation,Energy,"Short interest 9.7% of shares (1-year high zone, up 64% in ~6 weeks); 6.66 days to cover",strong,2026-10-15,9.73
+HK short positions,HK,stock,6855.HK,ASCENTAGE,,"Short 9.71% of shares, HK$991m; 52-week high zone (percentile 96) and among the most-shorted HK stocks (top 5%)",strong,2026-10-30,9.71
+US short interest,US,stock,TLN,Talen Energy,Utilities,"Short interest 9.7% of shares (1-year high zone, up 73% in ~6 weeks); 3.08 days to cover",strong,2026-10-15,9.69
+HK short positions,HK,stock,1164.HK,CGN MINING,,"Short 9.64% of shares, HK$1,518m; 52-week high zone (percentile 100) and among the most-shorted HK stocks (top 5%)",strong,2026-10-30,9.643
+US short interest,US,stock,AN,AutoNation,Consumer Discretionary,"Short interest 9.6% of shares (1-year high zone, up 37% in ~6 weeks); 5.35 days to cover",strong,2026-10-15,9.61
+HK short positions,HK,stock,9606.HK,DUALITYBIO-B,,"Short 9.60% of shares, HK$919m; 52-week high zone (percentile 100) and among the most-shorted HK stocks (top 5%)",strong,2026-10-30,9.595
+UK short positions,UK,stock,US25520W1071,Diversified Energy Company,,Aggregate short 9.25% of shares; up 0.52 pp in a week,strong,2026-11-04,9.25
+HK short positions,HK,stock,9995.HK,REMEGEN,,"Short 9.19% of shares, HK$1,244m; 52-week high zone (percentile 100) and among the most-shorted HK stocks (top 6%)",strong,2026-10-30,9.193
+HK short positions,HK,stock,6682.HK,PHANCY,,"Short 9.18% of shares, HK$714m; 52-week high zone (percentile 100) and among the most-shorted HK stocks (top 6%)",strong,2026-10-30,9.177
+US short interest,US,stock,NXST,Nexstar Media Group,Communication Services,"Short interest 9.1% of shares (1-year high zone, up 27% in ~6 weeks); 8.54 days to cover",strong,2026-10-15,9.11
+US short interest,US,stock,CDP,COPT Defense Properties,Real Estate,"Short interest 8.9% of shares (1-year high zone, up 45% in ~6 weeks); 10.78 days to cover",strong,2026-10-15,8.94
+HK short positions,HK,stock,9980.HK,EASTROC,,"Short 8.77% of shares, HK$500m; up 1.32 pp in a week",strong,2026-10-30,8.774
+US short interest,US,stock,EBC,"Eastern Bankshares, Inc.",Financials,"Short interest 8.7% of shares (1-year high zone, up 25% in ~6 weeks); 8.49 days to cover",strong,2026-10-15,8.71
+HK short positions,HK,stock,1799.HK,XINTE ENERGY,,"Short 8.65% of shares, HK$108m; 52-week high zone (percentile 100) and among the most-shorted HK stocks (top 7%)",strong,2026-10-30,8.647
+US short interest,US,stock,EFC,"Ellington Financial, Inc.",Financials,"Short interest 8.6% of shares (1-year high zone, up 53% in ~6 weeks); 5.68 days to cover",strong,2026-10-15,8.57
+US short interest,US,stock,SARO,StandardAero,Industrials,"Short interest 8.6% of shares (1-year high zone, up 72% in ~6 weeks); 8.09 days to cover",strong,2026-10-15,8.56
+US short interest,US,stock,EGP,EastGroup Properties,Real Estate,"Short interest 8.4% of shares (1-year high zone, up 66% in ~6 weeks); 10.07 days to cover",strong,2026-10-15,8.37
+US short interest,US,stock,CVSA,Covista Inc.,Consumer Discretionary,"Short interest 8.4% of shares (1-year high zone, up 57% in ~6 weeks); 9.85 days to cover",strong,2026-10-15,8.36
+US short interest,US,stock,JBTM,JBT Marel Corporation,Industrials,"Short interest 8.3% of shares (1-year high zone, up 25% in ~6 weeks); 9.31 days to cover",strong,2026-10-15,8.32
+US short interest,US,stock,BRX,Brixmor Property Group,Real Estate,"Short interest 8.3% of shares (1-year high zone, up 41% in ~6 weeks); 8.43 days to cover",strong,2026-10-15,8.29
+US short interest,US,stock,IRT,Independence Realty Trust,Real Estate,"Short interest 8.3% of shares (1-year high zone, up 49% in ~6 weeks); 5.13 days to cover",strong,2026-10-15,8.26
+US short interest,US,stock,WAFD,"WaFd, Inc.",Financials,"Short interest 8.2% of shares (1-year high zone, up 58% in ~6 weeks); 5.2 days to cover",strong,2026-10-15,8.17
+US short interest,US,stock,PODD,Insulet Corporation,Health Care,"Short interest 8.1% of shares (1-year high zone, up 27% in ~6 weeks); 3.12 days to cover",strong,2026-10-15,8.12
+US short interest,US,stock,CHDN,Churchill Downs Inc.,Consumer Discretionary,"Short interest 8.0% of shares (1-year high zone, up 32% in ~6 weeks); 4.41 days to cover",strong,2026-10-15,8.02
+US short interest,US,stock,VVX,"V2X, Inc.",Industrials,"Short interest 7.8% of shares (1-year high zone, up 58% in ~6 weeks); 5.66 days to cover",strong,2026-10-15,7.78
+US short interest,US,stock,AORT,Artivion,Health Care,"Short interest 7.7% of shares (1-year high zone, up 28% in ~6 weeks); 7.22 days to cover",strong,2026-10-15,7.66
+US short interest,US,stock,TRST,TrustCo Bank Corp NY,Financials,"Short interest 7.6% of shares (1-year high zone, up 40% in ~6 weeks); 13.14 days to cover",strong,2026-10-15,7.63
+HK short positions,HK,stock,1336.HK,NCI,,"Short 7.46% of shares, HK$2,997m; 52-week high zone (percentile 98) and among the most-shorted HK stocks (top 8%)",strong,2026-10-30,7.461
+HK short positions,HK,stock,3606.HK,FUYAO GLASS,,"Short 7.46% of shares, HK$2,306m; 52-week high zone (percentile 100) and among the most-shorted HK stocks (top 8%)",strong,2026-10-30,7.46
+HK short positions,HK,stock,9927.HK,SERES,,"Short 7.37% of shares, HK$235m; 52-week high zone (percentile 97) and among the most-shorted HK stocks (top 8%)",strong,2026-10-30,7.371
+HK short positions,HK,stock,2142.HK,HBM HOLDINGS-B,,"Short 7.34% of shares, HK$648m; 52-week high zone (percentile 98) and among the most-shorted HK stocks (top 9%)",strong,2026-10-30,7.341
+US short interest,US,stock,TRU,TransUnion,Industrials,"Short interest 7.3% of shares (1-year high zone, up 46% in ~6 weeks); 4.31 days to cover",strong,2026-10-15,7.3
+HK short positions,HK,stock,3877.HK,CSSC SHIPPING,,"Short 7.27% of shares, HK$1,060m; 52-week high zone (percentile 96) and among the most-shorted HK stocks (top 9%)",strong,2026-10-30,7.269
+US short interest,US,stock,HQY,HealthEquity,Health Care,"Short interest 7.2% of shares (1-year high zone, up 32% in ~6 weeks); 7.79 days to cover",strong,2026-10-15,7.19
+US short interest,US,stock,RDN,"Radian Group, Inc.",Financials,"Short interest 7.2% of shares (1-year high zone, up 72% in ~6 weeks); 3.73 days to cover",strong,2026-10-15,7.18
+US short interest,US,stock,CSR,Centerspace Trust,Real Estate,"Short interest 7.0% of shares (1-year high zone, up 92% in ~6 weeks); 5.28 days to cover",strong,2026-10-15,7.05
+HK short positions,HK,stock,1918.HK,SUNAC,,"Short 7.00% of shares, HK$580m; 52-week high zone (percentile 100) and among the most-shorted HK stocks (top 9%)",strong,2026-10-30,6.996
+US short interest,US,stock,LW,Lamb Weston,Consumer Staples,"Short interest 7.0% of shares (1-year high zone, up 53% in ~6 weeks); 2.36 days to cover",strong,2026-10-15,6.97
+US short interest,US,stock,DTM,DT Midstream,Energy,"Short interest 6.9% of shares (1-year high zone, up 28% in ~6 weeks); 7.44 days to cover",strong,2026-10-15,6.94
+HK short positions,HK,stock,2313.HK,SHENZHOU INTL,,"Short 6.87% of shares, HK$3,957m; 52-week high zone (percentile 100) and among the most-shorted HK stocks (top 10%)",strong,2026-10-30,6.865
+HK short positions,HK,stock,3069.HK,CAM HSBIOTECH,,"Short 6.76% of shares, HK$183m; up 2.29 pp in a week",strong,2026-10-30,6.76
+US short interest,US,stock,WD,"Walker & Dunlop, Inc.",Financials,"Short interest 6.7% of shares (1-year high zone, up 49% in ~6 weeks); 3.49 days to cover",strong,2026-10-15,6.74
+HK short positions,HK,stock,0960.HK,LONGFOR GROUP,,"Short 6.74% of shares, HK$2,169m; 52-week high zone (percentile 100) and among the most-shorted HK stocks (top 10%)",strong,2026-10-30,6.737
+US short interest,US,stock,FCFS,FirstCash,Financials,"Short interest 6.5% of shares (1-year high zone, up 26% in ~6 weeks); 8.63 days to cover",strong,2026-10-15,6.54
+US short interest,US,stock,ONB,Old National Bank,Financials,"Short interest 6.5% of shares (1-year high zone, up 41% in ~6 weeks); 4.77 days to cover",strong,2026-10-15,6.5
+US short interest,US,stock,REZI,"Resideo Technologies, Inc.",Industrials,"Short interest 6.4% of shares (1-year high zone, up 27% in ~6 weeks); 4.37 days to cover",strong,2026-10-15,6.43
+US short interest,US,stock,POR,Portland General Electric,Utilities,"Short interest 6.4% of shares (1-year high zone, up 25% in ~6 weeks); 4.33 days to cover",strong,2026-10-15,6.38
+US short interest,US,stock,HOPE,"Hope Bancorp, Inc.",Financials,"Short interest 6.4% of shares (1-year high zone, up 27% in ~6 weeks); 8.13 days to cover",strong,2026-10-15,6.37
+US short interest,US,stock,NBIX,Neurocrine Biosciences,Health Care,"Short interest 6.4% of shares (1-year high zone, up 28% in ~6 weeks); 4.54 days to cover",strong,2026-10-15,6.37
+US short interest,US,stock,SCSC,"ScanSource, Inc.",Information Technology,"Short interest 6.4% of shares (1-year high zone, up 44% in ~6 weeks); 4.74 days to cover",strong,2026-10-15,6.37
+US short interest,US,stock,LTH,"Life Time Group Holdings, Inc.",Consumer Discretionary,"Short interest 6.3% of shares (1-year high zone, up 56% in ~6 weeks); 5.0 days to cover",strong,2026-10-15,6.31
+US short interest,US,stock,LEA,Lear,Consumer Discretionary,"Short interest 6.3% of shares (1-year high zone, up 37% in ~6 weeks); 6.28 days to cover",strong,2026-10-15,6.27
+US short interest,US,stock,DT,Dynatrace,Information Technology,"Short interest 6.2% of shares (1-year high zone, up 49% in ~6 weeks); 2.56 days to cover",strong,2026-10-15,6.24
+US short interest,US,stock,NVR,"NVR, Inc.",Consumer Discretionary,"Short interest 6.2% of shares (1-year high zone, up 51% in ~6 weeks); 3.62 days to cover",strong,2026-10-15,6.19
+US short interest,US,stock,MTG,MGIC Investment Corporation,Financials,"Short interest 6.0% of shares (1-year high zone, up 50% in ~6 weeks); 4.65 days to cover",strong,2026-10-15,6.04
+US short interest,US,stock,FBK,FB Financial Corp.,Financials,"Short interest 6.0% of shares (1-year high zone, up 51% in ~6 weeks); 4.57 days to cover",strong,2026-10-15,5.99
+HK short positions,HK,stock,1548.HK,GENSCRIPT BIO,,"Short 5.96% of shares, HK$4,775m; up 1.27 pp in a week",strong,2026-10-30,5.965
+HK short positions,HK,stock,3986.HK,GIGADEVICE,,"Short 5.87% of shares, HK$615m; up 1.30 pp in a week",strong,2026-10-30,5.872
+US short interest,US,stock,CTVA,Corteva,Materials,"Short interest 5.8% of shares (1-year high zone, up 116% in ~6 weeks); 1.0 days to cover",strong,2026-10-15,5.78
+US short interest,US,stock,MATX,"Matson, Inc.",Industrials,"Short interest 5.8% of shares (1-year high zone, up 55% in ~6 weeks); 6.46 days to cover",strong,2026-10-15,5.78
+US short interest,US,stock,LTC,"LTC Properties, Inc.",Real Estate,"Short interest 5.7% of shares (1-year high zone, up 28% in ~6 weeks); 5.1 days to cover",strong,2026-10-15,5.74
+US short interest,US,stock,PEN,"Penumbra, Inc.",Health Care,"Short interest 5.7% of shares (1-year high zone, up 31% in ~6 weeks); 6.76 days to cover",strong,2026-10-15,5.74
+US short interest,US,stock,ELS,Equity Lifestyle Properties,Real Estate,"Short interest 5.7% of shares (1-year high zone, up 26% in ~6 weeks); 6.0 days to cover",strong,2026-10-15,5.69
+US short interest,US,stock,BKU,"BankUnited, Inc.",Financials,"Short interest 5.6% of shares (1-year high zone, up 35% in ~6 weeks); 4.14 days to cover",strong,2026-10-15,5.59
+US short interest,US,stock,CPAY,Corpay,Financials,"Short interest 5.5% of shares (1-year high zone, up 28% in ~6 weeks); 6.53 days to cover",strong,2026-10-15,5.47
+US short interest,US,stock,PECO,Phillips Edison & Company,Real Estate,"Short interest 5.5% of shares (1-year high zone, up 69% in ~6 weeks); 5.82 days to cover",strong,2026-10-15,5.45
+US short interest,US,stock,BURL,Burlington Stores,Consumer Discretionary,"Short interest 5.3% of shares (1-year high zone, up 69% in ~6 weeks); 2.45 days to cover",strong,2026-10-15,5.32
+US short interest,US,stock,ROL,"Rollins, Inc.",Industrials,"Short interest 5.2% of shares (1-year high zone, up 64% in ~6 weeks); 3.29 days to cover",strong,2026-10-15,5.23
+US short interest,US,stock,AIR,AAR Corp.,Industrials,"Short interest 5.2% of shares (1-year high zone, up 41% in ~6 weeks); 3.39 days to cover",strong,2026-10-15,5.21
+US short interest,US,stock,OFG,OFG Bancorp,Financials,"Short interest 5.2% of shares (1-year high zone, up 31% in ~6 weeks); 8.83 days to cover",strong,2026-10-15,5.15
+US short interest,US,stock,AAMI,Acadian Asset Management Inc.,Financials,"Short interest 5.1% of shares (1-year high zone, up 113% in ~6 weeks); 4.26 days to cover",strong,2026-10-15,5.11
+US short interest,US,stock,SITM,SiTime,Information Technology,"Short interest 5.1% of shares (1-year high zone, up 56% in ~6 weeks); 3.27 days to cover",strong,2026-10-15,5.09
+US short interest,US,stock,THRM,Gentherm Incorporated,Consumer Discretionary,"Short interest 5.1% of shares (1-year high zone, up 25% in ~6 weeks); 1.0 days to cover",strong,2026-10-15,5.07
+US short interest,US,stock,CASY,Casey's,Consumer Staples,"Short interest 5.1% of shares (1-year high zone, up 35% in ~6 weeks); 3.84 days to cover",strong,2026-10-15,5.06
+US short interest,US,stock,ZION,Zions Bancorporation,Financials,"Short interest 5.1% of shares (1-year high zone, up 34% in ~6 weeks); 5.42 days to cover",strong,2026-10-15,5.06
+US short interest,US,stock,EXE,Expand Energy,Energy,"Short interest 4.8% of shares (1-year high zone, up 33% in ~6 weeks); 3.9 days to cover",strong,2026-10-15,4.85
+US short interest,US,stock,NJR,New Jersey Resources,Utilities,"Short interest 4.6% of shares (1-year high zone, up 29% in ~6 weeks); 6.62 days to cover",strong,2026-10-15,4.62
+US short interest,US,stock,FNF,Fidelity National Financial,Financials,"Short interest 4.5% of shares (1-year high zone, up 30% in ~6 weeks); 4.88 days to cover",strong,2026-10-15,4.47
+US short interest,US,stock,FCF,"First Commonwealth Financial, Corp.",Financials,"Short interest 4.5% of shares (1-year high zone, up 32% in ~6 weeks); 4.35 days to cover",strong,2026-10-15,4.45
+US short interest,US,stock,AMRX,Amneal Pharmaceuticals,Health Care,"Short interest 4.4% of shares (1-year high zone, up 33% in ~6 weeks); 3.69 days to cover",strong,2026-10-15,4.41
+US short interest,US,stock,YUM,Yum! Brands,Consumer Discretionary,"Short interest 4.4% of shares (1-year high zone, up 32% in ~6 weeks); 4.76 days to cover",strong,2026-10-15,4.39
+US short interest,US,stock,ESNT,Essent Group Ltd.,Financials,"Short interest 4.4% of shares (1-year high zone, up 60% in ~6 weeks); 4.81 days to cover",strong,2026-10-15,4.37
+US short interest,US,stock,FR,First Industrial Realty Trust,Real Estate,"Short interest 4.2% of shares (1-year high zone, up 34% in ~6 weeks); 4.23 days to cover",strong,2026-10-15,4.15
+US short interest,US,stock,PNFP,Pinnacle Financial Partners,Financials,"Short interest 4.1% of shares (1-year high zone, up 34% in ~6 weeks); 5.51 days to cover",strong,2026-10-15,4.11
+US short interest,US,stock,PAG,Penske Automotive Group,Consumer Discretionary,"Short interest 4.1% of shares (1-year high zone, up 36% in ~6 weeks); 3.61 days to cover",strong,2026-10-15,4.08
+US short interest,US,stock,SWX,Southwest Gas Corp,Utilities,"Short interest 4.0% of shares (1-year high zone, up 53% in ~6 weeks); 4.89 days to cover",strong,2026-10-15,4.05
+US short interest,US,stock,NMIH,"NMI Holdings, Inc.",Financials,"Short interest 4.0% of shares (1-year high zone, up 63% in ~6 weeks); 3.56 days to cover",strong,2026-10-15,3.99
+US short interest,US,stock,CTS,CTS Corporation,Information Technology,"Short interest 4.0% of shares (1-year high zone, up 26% in ~6 weeks); 4.48 days to cover",strong,2026-10-15,3.97
+US short interest,US,stock,IBOC,Intl Bancshares Corp,Financials,"Short interest 3.8% of shares (1-year high zone, up 34% in ~6 weeks); 6.13 days to cover",strong,2026-10-15,3.84
+US short interest,US,stock,SSB,South State Bank,Financials,"Short interest 3.8% of shares (1-year high zone, up 28% in ~6 weeks); 5.06 days to cover",strong,2026-10-15,3.83
+US short interest,US,stock,CNS,"Cohen & Steers, Inc.",Financials,"Short interest 3.7% of shares (1-year high zone, up 63% in ~6 weeks); 6.22 days to cover",strong,2026-10-15,3.72
+US short interest,US,stock,SSD,Simpson Manufacturing,Industrials,"Short interest 3.7% of shares (1-year high zone, up 37% in ~6 weeks); 5.26 days to cover",strong,2026-10-15,3.72
+UK short positions,UK,stock,FR0013258662,AYVENS,,Aggregate short 3.71% of shares; up 0.65 pp in a week,strong,2026-11-04,3.71
+US short interest,US,stock,ACA,"Arcosa, Inc.",Industrials,"Short interest 3.7% of shares (1-year high zone, up 43% in ~6 weeks); 3.29 days to cover",strong,2026-10-15,3.68
+UK short positions,UK,stock,GB00B1CKQ739,DUNELM GROUP PLC,,Aggregate short 3.63% of shares; crossed 3%; up 1.79 pp in a week,strong,2026-11-03,3.63
+US short interest,US,stock,TPC,Tutor Perini Corporation,Industrials,"Short interest 3.6% of shares (1-year high zone, up 80% in ~6 weeks); 4.57 days to cover",strong,2026-10-15,3.62
+US short interest,US,stock,AZO,AutoZone,Consumer Discretionary,"Short interest 3.6% of shares (1-year high zone, up 33% in ~6 weeks); 2.92 days to cover",strong,2026-10-15,3.58
+US short interest,US,stock,ATI,ATI Inc.,Industrials,"Short interest 3.5% of shares (1-year high zone, up 28% in ~6 weeks); 3.93 days to cover",strong,2026-10-15,3.48
+US short interest,US,stock,CPF,Central Pacific Financial Corp.,Financials,"Short interest 3.5% of shares (1-year high zone, up 41% in ~6 weeks); 6.09 days to cover",strong,2026-10-15,3.47
+US short interest,US,stock,NLY,Annaly Capital Management,Financials,"Short interest 3.3% of shares (1-year high zone, up 26% in ~6 weeks); 1.76 days to cover",strong,2026-10-15,3.3
+US short interest,US,stock,CMI,Cummins,Industrials,"Short interest 3.3% of shares (1-year high zone, up 39% in ~6 weeks); 3.96 days to cover",strong,2026-10-15,3.27
+US short interest,US,stock,TMP,Tompkins Financial Corporation,Financials,"Short interest 3.3% of shares (1-year high zone, up 56% in ~6 weeks); 5.53 days to cover",strong,2026-10-15,3.27
+US short interest,US,stock,NVT,nVent Electric plc,Industrials,"Short interest 3.0% of shares (1-year high zone, up 41% in ~6 weeks); 2.23 days to cover",strong,2026-10-15,3.04
+US short interest,US,market,,S&P 1500 average short interest,,"6.41% of shares, near a 3-year high (percentile 99)",strong,2026-10-15,
+US short interest,US,sector,,Consumer Discretionary,Consumer Discretionary,"Sector short interest 4.67% of shares, percentile 100 of 3 years",strong,2026-10-15,
+US short interest,US,sector,,Energy,Energy,"Sector short interest 3.52% of shares, percentile 96 of 3 years",strong,2026-10-15,
+US short interest,US,sector,,Financials,Financials,"Sector short interest 3.48% of shares, percentile 99 of 3 years",strong,2026-10-15,
+US short interest,US,sector,,Health Care,Health Care,"Sector short interest 3.94% of shares, percentile 97 of 3 years",strong,2026-10-15,
+US short interest,US,sector,,Industrials,Industrials,"Sector short interest 3.95% of shares, percentile 99 of 3 years",strong,2026-10-15,
+US short interest,US,sector,,Materials,Materials,"Sector short interest 5.11% of shares, percentile 100 of 3 years",strong,2026-10-15,
+US short interest,US,sector,,Real Estate,Real Estate,"Sector short interest 5.72% of shares, percentile 100 of 3 years",strong,2026-10-15,
+US short interest,US,sector,,Utilities,Utilities,"Sector short interest 3.91% of shares, percentile 99 of 3 years",strong,2026-10-15,
+Southbound,HK,stock,1816.HK,"CGN POWER CO., LTD",,"Unusual mainland selling: -2.67 pp of shares in 5 days (~HK$-1,023m, z=-7.6); now holds 48.86%",good,2026-11-07,7.616259853593054
+Southbound,HK,stock,6031.HK,"SANY HEAVY INDUSTRY CO., LTD.",,"Unusual mainland buying: +1.17 pp of shares in 5 days (~HK$133m, z=3.6); now holds 8.10%",good,2026-11-07,3.6457680484312918
+Southbound,HK,stock,0384.HK,CHINA GAS HOLDINGS LIMITED,,"Unusual mainland selling: -0.71 pp of shares in 5 days (~HK$-190m, z=-3.4); now holds 16.47%",good,2026-11-07,3.405687064457058
+Southbound,HK,stock,0836.HK,CHINA RESOURCES POWER HOLDINGS COMPANY LIMITED,,"Unusual mainland buying: +0.53 pp of shares in 5 days (~HK$555m, z=3.3); now holds 21.95%",good,2026-11-07,3.3168519876467646
+Sector ETF flows,US,sector,XLV,Health Care,Health Care,"Unusual 4-week inflows: +1,947m USD (+3.90% of fund), percentile 100",context,2026-11-06,
+13F (hedge funds),US,stock,SPCX,SPACE EXPLORATION TECHN CORP,Other / not in S&P 1500,"5 stock-picking hedge funds opened new positions (>=0.25% of fund) in 2026-06 quarter (Appaloosa, Coatue, Third Point, Tiger Global, Viking Global)",context,2026-06-30,
+13F (hedge funds),US,stock,CBRS,CEREBRAS SYSTEMS INC,Other / not in S&P 1500,"3 stock-picking hedge funds opened new positions (>=0.25% of fund) in 2026-06 quarter (Coatue, Soros Fund Mgmt, Tiger Global)",context,2026-06-30,

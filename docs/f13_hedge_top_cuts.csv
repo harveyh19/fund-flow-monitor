@@ -15,7 +15,7 @@ cusip,issuer,ticker,sector,funds_new,funds_exit,holders_now,net_flow_usd_m
 254687106,DISNEY WALT CO,DIS,Communication Services,0,0,2,-591.0
 144285103,CARPENTER TECHNOLOGY CORP,CRS,Industrials,0,0,3,-589.0
 87422Q109,TALEN ENERGY CORP,TLN,Utilities,0,1,1,-580.0
+11271J107,BROOKFIELD CORP,BN,Other / not in S&P 1500,0,0,2,-538.0
 N07059210,ASML HLDG NV,,Other / not in S&P 1500,0,0,4,-534.0
 11135F101,BROADCOM INC,AVGO,Information Technology,1,2,4,-517.0
 40412C101,HCA HEALTHCARE INC,HCA,Health Care,0,1,0,-509.0
-184496107,CLEAN HARBORS INC,CLH,Industrials,0,1,0,-503.0

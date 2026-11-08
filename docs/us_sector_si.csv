@@ -1,12 +1,12 @@
 sector,si_pct,chg_pp,pctile_3y,obs
-Consumer Discretionary,4.67,0.02,100.0,2
-Energy,3.52,0.02,100.0,2
-Health Care,3.94,0.11,100.0,2
-Industrials,3.95,0.06,100.0,2
-Materials,5.11,0.17,100.0,2
-Real Estate,5.72,0.07,100.0,2
-Utilities,3.91,0.01,100.0,2
-Consumer Staples,3.31,-0.02,50.0,2
-Financials,3.48,-0.02,50.0,2
-Communication Services,2.95,-0.05,0.0,2
-Information Technology,2.59,-0.04,0.0,2
+Consumer Discretionary,4.67,0.02,100.0,70
+Materials,5.11,0.17,100.0,70
+Real Estate,5.72,0.07,100.0,70
+Financials,3.48,-0.02,99.0,70
+Industrials,3.95,0.06,99.0,70
+Utilities,3.91,0.01,99.0,70
+Health Care,3.94,0.11,97.0,70
+Energy,3.52,0.02,96.0,70
+Consumer Staples,3.31,-0.02,94.0,70
+Information Technology,2.59,-0.04,86.0,70
+Communication Services,2.95,-0.05,83.0,70
