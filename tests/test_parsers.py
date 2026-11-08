@@ -107,3 +107,14 @@ def test_helpers():
     assert mid[0] == date(2026, 11, 13)  # the 15th is a Sunday -> 13th first weekday tried
     assert late[0] == date(2026, 11, 30)
     assert fridays_back(2, date(2026, 11, 7)) == [date(2026, 11, 6), date(2026, 10, 30)]
+
+
+def test_finra_unquoted_older_format():
+    text = ("accountingYearMonthNumber|symbolCode|issueName|issuerServicesGroupExchangeCode|marketClassCode|"
+            "currentShortPositionQuantity|previousShortPositionQuantity|stockSplitFlag|averageDailyVolumeQuantity|"
+            "daysToCoverQuantity|revisionFlag|changePercent|changePreviousNumber|settlementDate\n"
+            "20250815|A|Agilent Technologies Inc.|A|NYSE|2884949|3062544||1181542|2.44||-5.80|-177595|2025-08-15\n")
+    df = finra.parse(text)
+    assert df.iloc[0]["short_shares"] == 2884949 and df.iloc[0]["settlement_date"] == "2025-08-15"
+    # the collector's file check must accept both header styles
+    assert text[:40].replace('"', "").startswith("accountingYearMonthNumber")

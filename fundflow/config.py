@@ -11,7 +11,7 @@ the wrong fund's holdings.
 # Concentrated stock-pickers: used for "consensus" new positions / exits.
 HEDGE_FUNDS = [
     (1067983, "berkshire", "Berkshire Hathaway"),
-    (1336528, "pershing", "Pershing Square"),
+    (2026053, "pershing", "Pershing Square"),  # files as Pershing Square Inc. from Q2 2026 (was CIK 1336528)
     (1656456, "appaloosa", "Appaloosa"),
     (1040273, "third point", "Third Point"),
     (1061768, "baupost", "Baupost"),
@@ -40,8 +40,8 @@ MULTISTRAT_FUNDS = [
 ]
 
 LARGE_MANAGERS = [
-    (102909, "vanguard", "Vanguard"),
-    (1364742, "blackrock", "BlackRock"),
+    (2100119, "vanguard capital", "Vanguard"),  # Vanguard Capital Management from Q1 2026 (Vanguard Group 102909 now files 13F-NT)
+    (2012383, "blackrock", "BlackRock"),  # new BlackRock, Inc. CIK since Oct 2024 (was 1364742)
     (93751, "state street", "State Street"),
     (315066, "fmr", "Fidelity (FMR)"),
     (1422848, "capital research", "Capital Research Global"),
@@ -117,6 +117,7 @@ UK_ALWAYS = {"GB0005405286": "HSBC Holdings"}
 # --- Alert thresholds -------------------------------------------------------
 TH = {
     "hk_short_pctile": 95,          # short % of shares at top 5% of own 52 weeks
+    "hk_short_xs_pctile": 90,       # ... and in the top 10% of HK stocks by short %
     "hk_short_jump_pp": 1.0,        # or up >= 1 percentage point in a week
     "hk_short_min_hkd": 50e6,       # ignore short positions under HK$50m
     "us_si_pctile": 95,             # short interest at top 5% of own 1-year history
@@ -125,9 +126,11 @@ TH = {
     "us_market_pctile": 98,         # aggregate short interest near 3-year high
     "sector_si_pctile": 95,
     "sb_top_n": 20,                 # Southbound biggest 5-day changes
-    "sb_z": 2.0,                    # Southbound unusual move (z-score vs own history)
-    "uk_levels": (1.0, 2.0, 3.0),   # UK aggregate short crosses these %
-    "uk_jump_pp": 0.5,
+    "sb_z": 3.0,                    # Southbound unusual move (z-score vs own history)
+    "sb_min_flow_hkd_m": 100,       # ... and at least HK$100m
+    "uk_levels": (3.0, 5.0, 10.0),  # UK aggregate short crosses these %
+    "uk_jump_pp": 0.5,              # or rises this much in a week ...
+    "uk_jump_min_pct": 2.0,         # ... while at least 2% of shares
     "f13_consensus_n": 3,           # >= 3 of the stock-picking hedge funds open / exit
     "f13_min_weight": 0.25,         # ... counting only positions >= 0.25% of the fund
     "f13_map_top_n": 300,           # CUSIPs mapped to tickers: all for stock-pickers,

@@ -38,7 +38,8 @@ def _fetch_half(sess, cands, have):
         if ds in have:
             return None, ds  # already stored
         r = sess.get(config.FINRA_URL.format(d=d.strftime("%Y%m%d")), timeout=120)
-        if r.status_code == 200 and r.text.startswith('"accountingYearMonthNumber"'):
+        # header is quoted in newer files and unquoted in older ones
+        if r.status_code == 200 and r.text[:40].replace('"', "").startswith("accountingYearMonthNumber"):
             return parse(r.text), ds
     return None, None
 
@@ -47,8 +48,8 @@ def collect(sess, months_back=None, today=None):
     today = today or date.today()
     old = store.read(TABLE, usecols=["settlement_date"])
     have = set(old["settlement_date"].astype(str)) if not old.empty else set()
-    if months_back is None:  # 3 years on the first run, then just recent months
-        months_back = 36 if not have else 3
+    if months_back is None:  # backfill 3 years until we have it, then recent months
+        months_back = 36 if len(have) < 60 else 3
     frames, got = [], []
     y, m = today.year, today.month
     for _ in range(months_back + 1):

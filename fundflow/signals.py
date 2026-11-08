@@ -151,6 +151,7 @@ def hk(alerts):
         piv = sfc.pivot_table(index="code", columns="date", values="short_pct")
         pivs = sfc.pivot_table(index="code", columns="date", values="short_shares")
         rows = []
+        lv = sfc[sfc["date"] == latest].set_index("code")["short_pct"].dropna()
         for code, r in cur.iterrows():
             rec = {"code": int(code), "name": r["name"], "short_hkd_m": _r(r["short_hkd"] / 1e6, 1),
                    "short_pct": None, "chg_pp_1w": None, "pctile_52w": None}
@@ -168,14 +169,17 @@ def hk(alerts):
                 h = s[s.index < latest].tail(52)
                 if len(h) >= 26:
                     rec["pctile_52w"] = _r(pct_rank(h, r["short_shares"]), 0)
+            rec["xs_pctile"] = _r(pct_rank(lv, rec["short_pct"]), 0) if rec["short_pct"] is not None else None
             rows.append(rec)
             big = (r["short_hkd"] or 0) >= TH["hk_short_min_hkd"]
-            hit_p = rec["pctile_52w"] is not None and rec["pctile_52w"] >= TH["hk_short_pctile"]
+            hit_p = rec["pctile_52w"] is not None and rec["pctile_52w"] >= TH["hk_short_pctile"] and \
+                rec["xs_pctile"] is not None and rec["xs_pctile"] >= TH["hk_short_xs_pctile"]
             hit_j = rec["chg_pp_1w"] is not None and rec["chg_pp_1w"] >= TH["hk_short_jump_pp"]
             if big and (hit_p or hit_j):
                 why = []
                 if hit_p:
-                    why.append(f"52-week high zone (percentile {rec['pctile_52w']:.0f})")
+                    why.append(f"52-week high zone (percentile {rec['pctile_52w']:.0f}) and among the "
+                               f"most-shorted HK stocks (top {max(1, 100 - rec['xs_pctile']):.0f}%)")
                 if hit_j:
                     why.append(f"up {rec['chg_pp_1w']:.2f} pp in a week")
                 pct = f"{rec['short_pct']:.2f}% of shares, " if rec["short_pct"] is not None else ""
@@ -234,7 +238,7 @@ def hk(alerts):
             out["sb_lookup"] = j[cols].round(3).to_dict("records")
             for _, r in j.iterrows():
                 if pd.notna(r["z"]) and abs(r["z"]) >= TH["sb_z"] and \
-                   pd.notna(r["est_flow_hkd_m"]) and abs(r["est_flow_hkd_m"]) >= 50:
+                   pd.notna(r["est_flow_hkd_m"]) and abs(r["est_flow_hkd_m"]) >= TH["sb_min_flow_hkd_m"]:
                     side = "buying" if r["chg_pp_5d"] > 0 else "selling"
                     alerts.append(dict(feed="Southbound", market="HK", kind="stock",
                                        ticker=f"{int(r['code']):04d}.HK", name=r["name"],
@@ -267,7 +271,7 @@ def uk(alerts):
                "as_of": now["position_date"].max()}
         rows.append(rec)
         crossed = [lv for lv in TH["uk_levels"] if v >= lv and (np.isnan(prev) or prev < lv)]
-        jump = rec["chg_pp"] is not None and rec["chg_pp"] >= TH["uk_jump_pp"]
+        jump = rec["chg_pp"] is not None and rec["chg_pp"] >= TH["uk_jump_pp"] and v >= TH["uk_jump_min_pct"]
         if crossed or jump:
             why = [f"crossed {max(crossed):.0f}%"] if crossed else []
             if jump:
@@ -431,8 +435,13 @@ def thirteen_f(alerts):
         m["w_now"] = m["value"] / tot_now * 100
         m["w_prev"] = m["value_prev"] / tot_old * 100
         mw = TH["f13_min_weight"]
-        m["new"] = (m["shares_prev"] == 0) & (m["shares"] > 0) & (m["w_now"] >= mw)
-        m["exit"] = (m["shares_prev"] > 0) & (m["shares"] == 0) & (m["w_prev"] >= mw)
+        # a filer whose reported book jumped or collapsed >5x changed how it
+        # files (new entity, fund transfer) - its "new" lines are not purchases
+        ratio = (tot_now / tot_old.replace(0, np.nan))
+        restructured = (ratio > 5) | (ratio < 0.2) | ratio.isna()
+        res["restructured_filers"] = sorted(m.loc[restructured, "manager"].unique())
+        m["new"] = (m["shares_prev"] == 0) & (m["shares"] > 0) & (m["w_now"] >= mw) & ~restructured
+        m["exit"] = (m["shares_prev"] > 0) & (m["shares"] == 0) & (m["w_prev"] >= mw) & ~restructured
         m["sector"] = m["sector"].fillna("Other / not in S&P 1500")
         agg = m.groupby("cusip").agg(issuer=("issuer", "first"), ticker=("ticker", "first"),
                                      sector=("sector", "first"), funds_new=("new", "sum"),

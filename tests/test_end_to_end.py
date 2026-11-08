@@ -236,8 +236,8 @@ def test_pipeline_end_to_end(run_pipeline):
     assert len(us_stock) == 1, us_stock  # noise stocks must not fire
     # planted HK jump in stock 5 (from 0.17% to 2% of shares)
     assert any(a["feed"] == "HK short positions" and a["ticker"] == "0005.HK" for a in alerts), text
-    # UK: Shorty crossed 2% (1.6 -> 2.4)
-    assert any(a["feed"] == "UK short positions" and "crossed 2%" in a["detail"] for a in alerts), text
+    # UK: Shorty rose 0.8 pp to 2.4% (jump rule, level >= 2%)
+    assert any(a["feed"] == "UK short positions" and "up 0.80 pp" in a["detail"] for a in alerts), text
     # sector ETF: XLE inflow surge
     assert any(a["feed"] == "Sector ETF flows" and a["ticker"] == "XLE" for a in alerts), text
     # 13F: T007 opened by every fake fund that exists

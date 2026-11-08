@@ -6,6 +6,10 @@ on:
     # CFTC, SFC and HKEX publications.
     - cron: "30 0 * * 6"
   workflow_dispatch: {}
+  # re-run when the code changes (the bot's own data commits don't trigger this)
+  push:
+    branches: [main]
+    paths: ["fundflow/**", "tests/**", ".github/workflows/**", "requirements.txt"]
 
 permissions:
   contents: write
