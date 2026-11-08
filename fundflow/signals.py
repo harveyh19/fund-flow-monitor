@@ -237,17 +237,25 @@ def hk(alerts):
                     zs[code] = zscore(h, j.loc[code, "chg_pp_5d"])
             j["z"] = j.index.map(zs)
             j = j.reset_index()
+            # index ETFs (Tracker Fund etc.) carry macro allocation flows, not the
+            # single-stock signal the research is about: keep them apart
+            j["is_etf"] = j["name"].astype(str).str.contains(r"ETF|TRACKER|\bFUND\b|UNITS", case=False, regex=True)
             cols = ["code", "name", "sb_pct", "chg_pp_5d", "est_flow_hkd_m", "z"]
             n = TH["sb_top_n"]
             out["sb_period"] = {"from": P, "to": L}
-            out["sb_buys"] = j.sort_values("chg_pp_5d", ascending=False)[cols].head(n).round(3).to_dict("records")
-            out["sb_sells"] = j.sort_values("chg_pp_5d")[cols].head(n).round(3).to_dict("records")
-            vj = j.dropna(subset=["est_flow_hkd_m"])
+            st = j[~j["is_etf"]]
+            out["sb_buys"] = st.sort_values("chg_pp_5d", ascending=False)[cols].head(n).round(3).to_dict("records")
+            out["sb_sells"] = st.sort_values("chg_pp_5d")[cols].head(n).round(3).to_dict("records")
+            vj = st.dropna(subset=["est_flow_hkd_m"])
             out["sb_buys_value"] = vj.sort_values("est_flow_hkd_m", ascending=False)[cols].head(n).round(3).to_dict("records")
             out["sb_sells_value"] = vj.sort_values("est_flow_hkd_m")[cols].head(n).round(3).to_dict("records")
             out["sb_est_net_flow_hkd_bn"] = _r(vj["est_flow_hkd_m"].sum() / 1e3, 2)
+            ej = j[j["is_etf"]].dropna(subset=["est_flow_hkd_m"])
+            out["sb_etf_net_flow_hkd_bn"] = _r(ej["est_flow_hkd_m"].sum() / 1e3, 2)
+            out["sb_etfs"] = ej.reindex(ej["est_flow_hkd_m"].abs().sort_values(ascending=False).index)[cols] \
+                .head(10).round(3).to_dict("records")
             out["sb_lookup"] = j[cols].round(3).to_dict("records")
-            for _, r in j.iterrows():
+            for _, r in st.iterrows():
                 if pd.notna(r["z"]) and abs(r["z"]) >= TH["sb_z"] and \
                    pd.notna(r["est_flow_hkd_m"]) and abs(r["est_flow_hkd_m"]) >= TH["sb_min_flow_hkd_m"]:
                     side = "buying" if r["chg_pp_5d"] > 0 else "selling"

@@ -103,6 +103,7 @@ def export(res):
     csv("southbound_buys", hk.get("sb_buys_value") or hk.get("sb_buys"))
     csv("southbound_sells", hk.get("sb_sells_value") or hk.get("sb_sells"))
     csv("lookup_hk_southbound", hk.get("sb_lookup"))
+    csv("southbound_etfs", hk.get("sb_etfs"))
     uk = res.get("uk") or {}
     csv("uk_top_shorts", uk.get("top"))
     csv("lookup_uk", uk.get("lookup"))
