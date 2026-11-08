@@ -36,12 +36,12 @@ def test_digest(tmp_path):
     md = digest.to_markdown(d)
     assert "9 alerts: 8 strong, 1 good, 0 context" in md
     assert "sold a net HK$1.50bn" in md and "HK$2.00bn into index ETFs" in md
-    assert "**AAA**" in md and "No alert: BBB." in md
+    assert "**`AAA`**" in md and "No alert: `BBB`." in md and "`T0` Co 0" in md
     assert "…and 2 more on the dashboard." in md          # 8 US alerts, 6 listed
     assert "Failed this week: feed_b." in md
 
     h = digest.to_html(md)
-    assert "<b>AAA</b>" in h and "&lt;test&gt;" in h and "A &amp; B" in h
+    assert "<b><code>AAA</code></b>" in h and "&lt;test&gt;" in h and "A &amp; B" in h
 
     class P(HTMLParser):
         def __init__(self):
@@ -60,7 +60,7 @@ def test_digest(tmp_path):
     p = P()
     p.feed(h)
     assert p.stack == [] and p.err == []
-    assert "**" not in digest.to_text(md)
+    assert "**" not in digest.to_text(md) and "`" not in digest.to_text(md)
 
 
 def test_digest_without_holdings(tmp_path):

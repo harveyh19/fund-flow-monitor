@@ -76,8 +76,13 @@ def build(docs, private):
                 hold_alerts=hold_alerts, bad=bad, asof=asof, tf=tf, n_alerts=len(alerts))
 
 
+def _code(t):
+    """Tickers go in backticks: Notion would otherwise turn 0700.HK into a web link."""
+    return f"`{t}`" if t else ""
+
+
 def _alert_line(a):
-    who = a.get("ticker") or ""
+    who = _code(a.get("ticker"))
     name = a.get("name") or ""
     head = f"{who} {name}".strip()
     return f"[{a.get('evidence')}] {head}: {a.get('detail')}"
@@ -90,13 +95,13 @@ def to_markdown(d):
     L += ["## Your holdings"]
     if d["hold_alerts"]:
         for h in d["hold_alerts"]:
-            L.append(f"- **{h['holding']}** ({h.get('holding_name') or ''}): [{h['evidence']}] "
+            L.append(f"- **{_code(h['holding'])}** ({h.get('holding_name') or ''}): [{h['evidence']}] "
                      f"{h.get('name') or ''}: {h.get('detail')}")
     else:
         L.append("- No alert touches your holdings this week.")
     quiet = [h["ticker"] for h in d["hold"] if not h.get("alert_count")]
     if quiet:
-        L.append(f"- No alert: {', '.join(quiet)}.")
+        L.append(f"- No alert: {', '.join(_code(q) for q in quiet)}.")
     L.append("")
     L += ["## Top alerts by feed"]
     for f in d["feeds"]:
@@ -125,7 +130,7 @@ def to_text(md):
             line = line[4:].upper()
         elif line.startswith("## "):
             line = "\n" + line[3:].upper()
-        line = line.replace("**", "")
+        line = line.replace("**", "").replace("`", "")
         if line.startswith("- "):
             line = "  * " + line[2:]
         out.append(line)
@@ -139,6 +144,8 @@ def to_html(md):
         # restore bold markers after escaping
         while "**" in esc:
             esc = esc.replace("**", "<b>", 1).replace("**", "</b>", 1)
+        while "`" in esc:
+            esc = esc.replace("`", "<code>", 1).replace("`", "</code>", 1)
         if line.startswith("- "):
             if not in_list:
                 out.append("<ul>")
