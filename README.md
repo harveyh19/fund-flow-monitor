@@ -46,15 +46,18 @@ Hong Kong sector aggregation (no free sector classification).
 
 ## Alert rules (`fundflow/config.py`, `TH`)
 
-* **HK shorts**: short % of shares at a 52-week high (top 5%) or up ≥1
-  percentage point in a week; positions under HK$50m ignored.
-* **US shorts** (S&P 1500): short % at a 1-year high (top 5%) **and** ≥3% of
-  shares **and** up ≥25% versus ~6 weeks earlier. Sector totals at a 3-year
-  high (top 5%). Market-wide average near a 3-year high (top 2%).
-* **UK shorts**: aggregate short crosses 1%, 2% or 3%, or rises ≥0.5 pp in a
-  week. HSBC is always shown.
+* **HK shorts**: short % of shares at a 52-week high (top 5%) **and** among the
+  most-shorted 10% of HK stocks, or up ≥1 percentage point in a week;
+  positions under HK$50m ignored.
+* **US shorts** (S&P 1500): short % at a 1-year high (top 5%), **and** in the
+  most-shorted 10% of the S&P 1500, **and** ≥3% of
+  shares **and** up ≥25% versus ~6 weeks earlier. A sector when its short % *relative
+  to the whole S&P 1500* is in the top 5% of 3 years. Market-wide average near a
+  3-year high (top 2%).
+* **UK shorts**: aggregate short crosses 3%, 5% or 10%, or rises ≥0.5 pp in a
+  week while ≥2%. HSBC is always shown.
 * **Southbound**: 20 biggest one-week buys and sells; an alert when a stock's
-  move is ≥2 standard deviations of its own weekly history and ≥HK$50m.
+  move is ≥3 standard deviations of its own weekly history and ≥HK$100m.
 * **13F**: ≥3 of the stock-picking hedge funds open (or exit) the same stock,
   counting only positions ≥0.25% of a fund.
 * **ETF flows**: 4-week flow as % of fund size in the top or bottom 5% of

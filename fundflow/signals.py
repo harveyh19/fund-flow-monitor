@@ -71,30 +71,38 @@ def us_short(alerts):
            .groupby(["settlement_date", "sector"])[["short_shares", "shares_out"]].sum()
            .reset_index())
     sec["si_pct"] = sec["short_shares"] / sec["shares_out"] * 100
+    tot = sec.groupby("settlement_date")[["short_shares", "shares_out"]].sum()
+    mkt = (tot["short_shares"] / tot["shares_out"] * 100).rename("mkt_pct")
+    sec = sec.merge(mkt, left_on="settlement_date", right_index=True)
+    sec["rel_pp"] = sec["si_pct"] - sec["mkt_pct"]  # sector vs whole S&P 1500
     rows = []
     for s, g in sec.groupby("sector"):
         g = g.sort_values("settlement_date")
         if g["settlement_date"].iloc[-1] != latest:
             continue
-        cur = g["si_pct"].iloc[-1]
+        cur, rel = g["si_pct"].iloc[-1], g["rel_pp"].iloc[-1]
         hist = g["si_pct"].iloc[:-1].tail(72)
+        rhist = g["rel_pp"].iloc[:-1].tail(72)
         prev = g["si_pct"].iloc[-2] if len(g) > 1 else np.nan
-        p = pct_rank(hist, cur)
+        p, rp = pct_rank(hist, cur), pct_rank(rhist, rel)
         rows.append({"sector": s, "si_pct": _r(cur), "chg_pp": _r(cur - prev),
-                     "pctile_3y": _r(p, 0), "obs": len(hist)})
-        if len(hist) >= 24 and p >= TH["sector_si_pctile"]:
+                     "pctile_3y": _r(p, 0), "vs_market_pp": _r(rel),
+                     "vs_market_pctile_3y": _r(rp, 0), "obs": len(hist)})
+        if len(rhist) >= 24 and rp >= TH["sector_si_pctile"]:
             alerts.append(dict(feed="US short interest", market="US", kind="sector",
                                name=s, sector=s,
-                               detail=f"Sector short interest {cur:.2f}% of shares, "
-                                      f"percentile {p:.0f} of 3 years",
+                               detail=f"Sector short interest {cur:.2f}% of shares, {rel:+.2f} pp versus the "
+                                      f"whole S&P 1500: the most shorted relative to the market in 3 years "
+                                      f"(percentile {rp:.0f})",
                                evidence="strong", date=latest))
-    out["sectors"] = sorted(rows, key=lambda r: -(r["pctile_3y"] or 0))
+    out["sectors"] = sorted(rows, key=lambda r: -(r["vs_market_pctile_3y"] or 0))
     out["sector_series"] = sec[["settlement_date", "sector", "si_pct"]].round(3).to_dict("records")
 
     # --- single stocks
     piv = si.pivot_table(index="key", columns="settlement_date", values="si_pct")
     dtc = si.pivot_table(index="key", columns="settlement_date", values="days_to_cover")
     cur = si[si["settlement_date"] == latest].set_index("key")
+    xs = cur[cur["sector"].apply(lambda v: isinstance(v, str))]["si_pct"].dropna()
     look, top = [], []
     for k, r in cur.iterrows():
         rec = {"key": k, "symbol": r["symbol"], "name": r.get("company") if isinstance(r.get("company"), str) else r["name"],
@@ -111,14 +119,17 @@ def us_short(alerts):
             hd = dtc.loc[k].dropna()
             hd = hd[hd.index < latest].tail(24)
             rec["dtc_pctile_1y"] = _r(pct_rank(hd, r["days_to_cover"]), 0) if len(hd) >= 12 else None
+        rec["xs_pctile"] = _r(pct_rank(xs, r["si_pct"]), 0) if pd.notna(r["si_pct"]) else None
         look.append(rec)
         in_sp = isinstance(r.get("sector"), str)
         if in_sp and rec.get("si_pctile_1y") is not None and \
            rec["si_pctile_1y"] >= TH["us_si_pctile"] and (rec["si_pct"] or 0) >= TH["us_si_min_pct"] and \
+           (rec.get("xs_pctile") or 0) >= TH["us_si_xs_pctile"] and \
            (rec.get("si_rise_vs_6wk") or 0) >= TH["us_si_min_rise"]:
             alerts.append(dict(feed="US short interest", market="US", kind="stock",
                                ticker=r["symbol"], name=rec["name"], sector=rec["sector"],
-                               detail=f"Short interest {rec['si_pct']:.1f}% of shares (1-year high zone, "
+                               detail=f"Short interest {rec['si_pct']:.1f}% of shares (1-year high zone, among the "
+                                      f"most-shorted {max(1, 100 - rec['xs_pctile']):.0f}% of the S&P 1500, "
                                       f"up {rec['si_rise_vs_6wk']*100:.0f}% in ~6 weeks); "
                                       f"{rec['days_to_cover']} days to cover",
                                evidence="strong", date=latest,

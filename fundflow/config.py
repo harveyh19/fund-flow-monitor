@@ -123,8 +123,9 @@ TH = {
     "us_si_pctile": 95,             # short interest at top 5% of own 1-year history
     "us_si_min_pct": 3.0,           # ... and at least 3% of shares outstanding
     "us_si_min_rise": 0.25,         # ... and up >= 25% versus 3 settlements earlier
+    "us_si_xs_pctile": 90,          # ... and in the top 10% of the S&P 1500 by short %
     "us_market_pctile": 98,         # aggregate short interest near 3-year high
-    "sector_si_pctile": 95,
+    "sector_si_pctile": 95,         # sector short % minus the S&P 1500's, top 5% of 3 years
     "sb_top_n": 20,                 # Southbound biggest 5-day changes
     "sb_z": 3.0,                    # Southbound unusual move (z-score vs own history)
     "sb_min_flow_hkd_m": 100,       # ... and at least HK$100m
