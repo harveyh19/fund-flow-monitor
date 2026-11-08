@@ -45,6 +45,7 @@ def _rows(path, limit=None):
     df = pd.read_csv(path)
     if limit:
         df = df.head(limit)
+    df = df.round(2)  # what the page shows is exactly what the file holds
     return _clean(json.loads(df.to_json(orient="records")))
 
 
