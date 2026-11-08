@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T16:55+00:00",
+ "generated_at": "2026-11-08T16:58+00:00",
  "data_status": {
   "sp1500_sectors": {
    "ok": true,
@@ -170721,44 +170721,12 @@
   },
   "sb_buys": [
    {
-    "code": 2828,
-    "name": "HANG SENG CHINA ENTERPRISES INDEX ETF -HKD TRADED UNITS",
-    "sb_pct": 11.87,
-    "chg_pp_5d": 10.93,
-    "est_flow_hkd_m": 2733.914,
-    "z": 1.537
-   },
-   {
-    "code": 2800,
-    "name": "TRACKER FUND OF HONG KONG -HKD TRADED UNITS",
-    "sb_pct": 7.87,
-    "chg_pp_5d": 7.55,
-    "est_flow_hkd_m": 10530.499,
-    "z": 2.064
-   },
-   {
-    "code": 3437,
-    "name": "BOSERA CHINA REFORM HONG KONG CENTRAL -SOES HIGH DIV YIELD IND ETF-HKD COUNTER",
-    "sb_pct": 6.07,
-    "chg_pp_5d": 5.07,
-    "est_flow_hkd_m": null,
-    "z": 48.308
-   },
-   {
     "code": 2656,
     "name": "160 HEALTH INTERNATIONAL LIMITED",
     "sb_pct": 20.96,
     "chg_pp_5d": 4.88,
     "est_flow_hkd_m": 53.123,
     "z": 3.021
-   },
-   {
-    "code": 3033,
-    "name": "CSOP HANG SENG TECH INDEX ETF",
-    "sb_pct": 65.16,
-    "chg_pp_5d": 4.32,
-    "est_flow_hkd_m": 3797.796,
-    "z": 2.672
    },
    {
     "code": 3223,
@@ -170809,20 +170777,20 @@
     "z": 0.339
    },
    {
-    "code": 6681,
-    "name": "BRAINAURORA MEDICAL TECHNOLOGY LIMITED",
-    "sb_pct": 22.13,
-    "chg_pp_5d": 2.5,
-    "est_flow_hkd_m": null,
-    "z": 2.682
-   },
-   {
     "code": 3986,
     "name": "GIGADEVICE SEMICONDUCTOR INC.",
     "sb_pct": 54.78,
     "chg_pp_5d": 2.5,
     "est_flow_hkd_m": 261.954,
     "z": 0.403
+   },
+   {
+    "code": 6681,
+    "name": "BRAINAURORA MEDICAL TECHNOLOGY LIMITED",
+    "sb_pct": 22.13,
+    "chg_pp_5d": 2.5,
+    "est_flow_hkd_m": null,
+    "z": 2.682
    },
    {
     "code": 68,
@@ -170879,6 +170847,38 @@
     "chg_pp_5d": 1.86,
     "est_flow_hkd_m": null,
     "z": 0.899
+   },
+   {
+    "code": 2583,
+    "name": "SHENZHEN HIPINE PRECISION TECHNOLOGY CO., LTD.",
+    "sb_pct": 16.23,
+    "chg_pp_5d": 1.84,
+    "est_flow_hkd_m": null,
+    "z": 1.611
+   },
+   {
+    "code": 6821,
+    "name": "ASYMCHEM LABORATORIES (TIANJIN) CO., LTD.",
+    "sb_pct": 43.61,
+    "chg_pp_5d": 1.74,
+    "est_flow_hkd_m": 50.1,
+    "z": 1.034
+   },
+   {
+    "code": 9981,
+    "name": "SHENZHEN WOER HEAT-SHRINKABLE MATERIAL CO., LTD.",
+    "sb_pct": 35.79,
+    "chg_pp_5d": 1.47,
+    "est_flow_hkd_m": null,
+    "z": 0.656
+   },
+   {
+    "code": 1879,
+    "name": "SHANGHAI XIZHI TECHNOLOGY CO., LTD.",
+    "sb_pct": 4.26,
+    "chg_pp_5d": 1.38,
+    "est_flow_hkd_m": 193.487,
+    "z": null
    }
   ],
   "sb_sells": [
@@ -171045,30 +171045,6 @@
   ],
   "sb_buys_value": [
    {
-    "code": 2800,
-    "name": "TRACKER FUND OF HONG KONG -HKD TRADED UNITS",
-    "sb_pct": 7.87,
-    "chg_pp_5d": 7.55,
-    "est_flow_hkd_m": 10530.499,
-    "z": 2.064
-   },
-   {
-    "code": 3033,
-    "name": "CSOP HANG SENG TECH INDEX ETF",
-    "sb_pct": 65.16,
-    "chg_pp_5d": 4.32,
-    "est_flow_hkd_m": 3797.796,
-    "z": 2.672
-   },
-   {
-    "code": 2828,
-    "name": "HANG SENG CHINA ENTERPRISES INDEX ETF -HKD TRADED UNITS",
-    "sb_pct": 11.87,
-    "chg_pp_5d": 10.93,
-    "est_flow_hkd_m": 2733.914,
-    "z": 1.537
-   },
-   {
     "code": 2318,
     "name": "PING AN INSURANCE (GROUP) COMPANY OF CHINA, LTD.-HKD TRADED SHARES",
     "sb_pct": 13.72,
@@ -171203,6 +171179,30 @@
     "chg_pp_5d": 2.5,
     "est_flow_hkd_m": 261.954,
     "z": 0.403
+   },
+   {
+    "code": 3808,
+    "name": "SINOTRUK (HONG KONG) LIMITED",
+    "sb_pct": 10.72,
+    "chg_pp_5d": 0.27,
+    "est_flow_hkd_m": 227.959,
+    "z": 0.922
+   },
+   {
+    "code": 883,
+    "name": "CNOOC LIMITED -HKD TRADED SHARES",
+    "sb_pct": 22.37,
+    "chg_pp_5d": 0.02,
+    "est_flow_hkd_m": 218.591,
+    "z": 0.038
+   },
+   {
+    "code": 1171,
+    "name": "YANKUANG ENERGY GROUP COMPANY LIMITED",
+    "sb_pct": 46.48,
+    "chg_pp_5d": 0.48,
+    "est_flow_hkd_m": 212.595,
+    "z": 0.757
    }
   ],
   "sb_sells_value": [
@@ -171367,7 +171367,58 @@
     "z": -0.246
    }
   ],
-  "sb_est_net_flow_hkd_bn": 7.2,
+  "sb_est_net_flow_hkd_bn": -9.87,
+  "sb_etf_net_flow_hkd_bn": 17.07,
+  "sb_etfs": [
+   {
+    "code": 2800,
+    "name": "TRACKER FUND OF HONG KONG -HKD TRADED UNITS",
+    "sb_pct": 7.87,
+    "chg_pp_5d": 7.55,
+    "est_flow_hkd_m": 10530.499,
+    "z": 2.064
+   },
+   {
+    "code": 3033,
+    "name": "CSOP HANG SENG TECH INDEX ETF",
+    "sb_pct": 65.16,
+    "chg_pp_5d": 4.32,
+    "est_flow_hkd_m": 3797.796,
+    "z": 2.672
+   },
+   {
+    "code": 2828,
+    "name": "HANG SENG CHINA ENTERPRISES INDEX ETF -HKD TRADED UNITS",
+    "sb_pct": 11.87,
+    "chg_pp_5d": 10.93,
+    "est_flow_hkd_m": 2733.914,
+    "z": 1.537
+   },
+   {
+    "code": 3067,
+    "name": "ISHARES HANG SENG TECH ETF - HKD TRADED UNITS",
+    "sb_pct": 1.5,
+    "chg_pp_5d": null,
+    "est_flow_hkd_m": 11.369,
+    "z": null
+   },
+   {
+    "code": 3069,
+    "name": "CHINAAMC HANG SENG BIOTECH ETF - HKD TRADED UNITS",
+    "sb_pct": 7.52,
+    "chg_pp_5d": 0.2,
+    "est_flow_hkd_m": -3.417,
+    "z": 0.339
+   },
+   {
+    "code": 2801,
+    "name": "ISHARES CORE MSCI CHINA ETF",
+    "sb_pct": 0.0,
+    "chg_pp_5d": 0.0,
+    "est_flow_hkd_m": 0.141,
+    "z": 0.101
+   }
+  ],
   "sb_lookup": [
    {
     "code": 1,
