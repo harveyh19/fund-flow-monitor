@@ -1,0 +1,9 @@
+market,date,lev_funds_net_pct_oi,lev_pctile_3y,asset_mgr_net_pct_oi,am_pctile_3y,flag,evidence
+MSCI EAFE (developed ex-US),2026-11-03,-2.6,20.0,55.3,81.0,,context
+MSCI Emerging Markets,2026-11-03,1.1,49.0,50.2,92.0,,context
+Nasdaq-100 mini,2026-11-03,3.4,97.0,25.0,34.0,hedge funds unusually long,context
+Nikkei 225 (yen),2026-11-03,8.0,55.0,22.2,65.0,,context
+Russell 2000 e-mini,2026-11-03,-12.3,50.0,5.3,34.0,,context
+S&P 500 e-mini,2026-11-03,-18.7,31.0,46.7,63.0,,context
+US 10-year Treasury,2026-11-03,-38.0,39.0,51.0,99.0,,context
+VIX,2026-11-03,-8.5,38.0,-9.6,12.0,,context

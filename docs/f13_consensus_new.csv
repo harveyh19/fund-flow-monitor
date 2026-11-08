@@ -1,0 +1,3 @@
+cusip,issuer,ticker,sector,funds_new,funds_exit,holders_now,net_flow_usd_m,who
+84615Q103,SPACE EXPLORATION TECHN CORP,SPCX,Other / not in S&P 1500,5,0,5,3510.0,"Appaloosa, Coatue, Third Point, Tiger Global, Viking Global"
+15675D103,CEREBRAS SYSTEMS INC,CBRS,Other / not in S&P 1500,3,0,3,2245.0,"Coatue, Soros Fund Mgmt, Tiger Global"
