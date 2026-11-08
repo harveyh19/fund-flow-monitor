@@ -51,5 +51,10 @@ jobs:
             echo "No changes"
           else
             git commit -m "Weekly data update $(date -u +%Y-%m-%d)"
-            git push
+            # code may have been pushed while this ran: rebase onto it, retry
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && exit 0
+              sleep $((i * 15))
+            done
+            echo "push failed after 3 tries"; exit 1
           fi
