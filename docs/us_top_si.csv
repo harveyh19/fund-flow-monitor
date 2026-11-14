@@ -2,7 +2,7 @@ key,symbol,name,sector,si_pct,days_to_cover,short_shares,si_pctile_1y,si_rise_vs
 TRIP,TRIP,TripAdvisor,Communication Services,32.59,13.24,38397250,100.0,0.3,100.0,100.0
 CLSK,CLSK,"CleanSpark, Inc.",Information Technology,30.66,4.58,78749690,42.0,0.01,92.0,100.0
 RUN,RUN,Sunrun,Industrials,29.62,8.64,71657132,100.0,0.05,79.0,100.0
-MARA,MARA,"MARA Holdings, Inc.",Information Technology,28.98,3.18,111935490,83.0,0.02,100.0,100.0
+MARA,MARA,"MARA Holdings, Inc.",Information Technology,28.89,3.18,111935490,83.0,0.02,100.0,100.0
 KSS,KSS,Kohl's Corp.,Consumer Discretionary,28.83,7.41,32691760,92.0,0.07,54.0,100.0
 RH,RH,RH,Consumer Discretionary,28.77,6.12,5446687,83.0,0.12,75.0,100.0
 JBLU,JBLU,JetBlue,Industrials,28.35,4.42,106982384,100.0,0.15,92.0,100.0
@@ -27,5 +27,5 @@ PZZA,PZZA,Papa John's Pizza,Consumer Discretionary,20.6,5.07,6784772,96.0,0.12,6
 HOG,HOG,Harley-Davidson,Consumer Discretionary,20.46,9.72,20665133,96.0,0.17,88.0,98.0
 MP,MP,MP Materials,Materials,20.33,6.2,36236316,96.0,0.13,88.0,98.0
 ENOV,ENOV,Enovis,Health Care,20.28,8.68,11701087,100.0,0.29,58.0,98.0
-GO,GO,Grocery Outlet,Consumer Staples,20.05,8.79,19865208,0.0,-0.15,50.0,98.0
-EYE,EYE,National Vision Holdings,Consumer Discretionary,19.91,9.68,15740393,92.0,0.12,100.0,98.0
+EYE,EYE,National Vision Holdings,Consumer Discretionary,20.16,9.68,15740393,92.0,0.12,100.0,98.0
+SBH,SBH,"Sally Beauty Holdings, Inc.",Consumer Discretionary,20.08,12.22,18218854,33.0,-0.1,50.0,98.0

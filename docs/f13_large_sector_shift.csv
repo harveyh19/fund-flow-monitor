@@ -1,12 +1,12 @@
 sector,weight_pct,prev_weight_pct,chg_pp
-Information Technology,36.91,31.85,5.07
-Industrials,9.9,9.89,0.0
-Real Estate,2.28,2.39,-0.12
-Materials,1.54,1.79,-0.25
-Utilities,2.48,2.93,-0.46
-Consumer Discretionary,9.36,9.91,-0.56
-Health Care,9.65,10.23,-0.59
-Communication Services,9.91,10.54,-0.64
-Consumer Staples,4.47,5.18,-0.71
-Energy,2.26,3.0,-0.74
-Financials,11.25,12.27,-1.02
+Information Technology,38.59,37.12,1.47
+Energy,3.57,2.22,1.35
+Health Care,9.86,9.47,0.39
+Communication Services,9.93,9.92,0.0
+Materials,1.48,1.55,-0.07
+Consumer Staples,4.32,4.5,-0.18
+Real Estate,2.09,2.27,-0.18
+Utilities,2.12,2.44,-0.32
+Financials,10.87,11.24,-0.37
+Consumer Discretionary,8.55,9.39,-0.83
+Industrials,8.62,9.89,-1.27
